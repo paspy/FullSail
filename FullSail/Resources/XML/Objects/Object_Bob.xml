@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity3D Type="2">  
+  <Renderinfo>Bob</Renderinfo>
+  <CollisionMesh>CollisionBob</CollisionMesh>
+  <Name>Tortuga</Name>
+ <Port Name = "Saltier Spitoon" ObjectFile ="Port_SaltierSpitoon">
+    <Transform>
+      <Position>
+        <X>-156.318</X>
+        <Y>0</Y>
+        <Z>-121.716</Z>
+      </Position>
+      <Rotation>
+        <Y>-101.051</Y>
+        <!--This is in degrees for quick thought process-->
+      </Rotation>
+      <Scale>
+        <X>7</X>
+        <Y>7</Y>
+        <Z>7</Z>
+      </Scale>
+    </Transform>
+  </Port>
+</Entity3D>
+

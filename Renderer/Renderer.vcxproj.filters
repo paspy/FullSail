@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{51faae21-7638-4052-b23f-a46c6e36fd75}</UniqueIdentifier>
+      <Extensions>hlsl</Extensions>
+    </Filter>
+    <Filter Include="Shaders\DummyVS">
+      <UniqueIdentifier>{ea4853e9-6691-4a15-8c8e-cfb0a0fb3caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\CelShadingPass">
+      <UniqueIdentifier>{b053d06c-979d-46e7-bd80-e62181eeaf7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Headers">
+      <UniqueIdentifier>{d055c977-e2ab-4fcc-af57-ba5b0c3ead54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perlin Noise">
+      <UniqueIdentifier>{af1e54a0-5e5d-43d8-9d38-40abf02dacb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics2D">
+      <UniqueIdentifier>{58588a67-1fcd-47fb-aa50-34c8fe0d9610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\PixelShaders">
+      <UniqueIdentifier>{5fb5a399-c3a6-4b54-8476-5c7c34f77891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\VertexShader">
+      <UniqueIdentifier>{cfbc14ee-46c2-4072-86b1-208cfdeda17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\HullShader">
+      <UniqueIdentifier>{7c2f5bab-7952-488e-9ad2-3535a531eae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\ComputeShader">
+      <UniqueIdentifier>{f818a60f-25ad-4f39-a733-1fc3ec11bb14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\DomainShader">
+      <UniqueIdentifier>{43a380de-978f-444b-84e4-9b726b346335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\GeometryShader">
+      <UniqueIdentifier>{8b4c1714-1970-4758-99bd-067ab7b9b4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\CustomSpriteShaders">
+      <UniqueIdentifier>{783da492-451d-4582-877e-9423248c18c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\DeviceResoureces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\RendererController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ShaderHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\RenderNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\RenderSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ShaderEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ShaderPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\CommonStateObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Renderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\InputLayoutManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\SharedDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PerlinNoise.h">
+      <Filter>Perlin Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Geometry2D.h">
+      <Filter>Graphics2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Graphics2D.h">
+      <Filter>Graphics2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ConstantBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Water.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ParticleCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\C3DHUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DeviceResoureces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RendererController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RenderSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ShaderEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ShaderPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CommonStateObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Renderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\InputLayoutManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Geometry2D.cpp">
+      <Filter>Graphics2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphics2D.cpp">
+      <Filter>Graphics2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Water.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ParticleCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Particle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\C3DHUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Inc\HLSL\VERIN_POSNORUVTAN.hlsl">
+      <Filter>Shaders\DummyVS</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\VERIN_POS.hlsl">
+      <Filter>Shaders\DummyVS</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\VS_Model.hlsl">
+      <Filter>Shaders\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_Model.hlsl">
+      <Filter>Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\VS_Skybox.hlsl">
+      <Filter>Shaders\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_Skybox.hlsl">
+      <Filter>Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_Water.hlsl">
+      <Filter>Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\VS_Water.hlsl">
+      <Filter>Shaders\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\CS_Water.hlsl">
+      <Filter>Shaders\ComputeShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\DS_Terrain.hlsl">
+      <Filter>Shaders\DomainShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\HS_Terrain.hlsl">
+      <Filter>Shaders\HullShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\VS_Terrain.hlsl">
+      <Filter>Shaders\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_Terrain.hlsl">
+      <Filter>Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\VERIN_POSUVBOUNDY.hlsl">
+      <Filter>Shaders\DummyVS</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_POST.hlsl">
+      <Filter>Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\VS_POST.hlsl">
+      <Filter>Shaders\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_POSTFADE.hlsl">
+      <Filter>Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\VS_POSVELSIZAGETYP_SO.hlsl">
+      <Filter>Shaders\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\GS_BillboardQuad.hlsl">
+      <Filter>Shaders\GeometryShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\GS_ParticleWakeSO.hlsl">
+      <Filter>Shaders\GeometryShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\VS_ParticleWake.hlsl">
+      <Filter>Shaders\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_ParticleWake.hlsl">
+      <Filter>Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_Ingame_HUD.hlsl">
+      <Filter>Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\VS_InGame_HUD.hlsl">
+      <Filter>Shaders\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_ParticleExplode.hlsl">
+      <Filter>Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\GS_ParticleExplodeSO.hlsl">
+      <Filter>Shaders\GeometryShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\VS_ParticleExplode.hlsl">
+      <Filter>Shaders\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\VS_ParticleFire.hlsl">
+      <Filter>Shaders\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_ParticleFire.hlsl">
+      <Filter>Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\GS_ParticleFireSO.hlsl">
+      <Filter>Shaders\GeometryShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_POSTSEPIATONE.hlsl">
+      <Filter>Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_POSTVIGNETTE.hlsl">
+      <Filter>Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_SpriteBatch.hlsl">
+      <Filter>Shaders\CustomSpriteShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\GS_ParticleBoardingEffect.hlsl">
+      <Filter>Shaders\GeometryShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\PS_ParticleBoardingEffect.hlsl">
+      <Filter>Shaders\PixelShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\VS_ParticleBoardingEffect.hlsl">
+      <Filter>Shaders\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Inc\HLSL\GS_RotatingBillBoard.hlsl">
+      <Filter>Shaders\GeometryShader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Inc\HLSL\CommonShaderFunctions.hlsli">
+      <Filter>Shaders\Headers</Filter>
+    </None>
+    <None Include="Inc\HLSL\InputLayout.hlsli">
+      <Filter>Shaders\Headers</Filter>
+    </None>
+    <None Include="Inc\HLSL\Samplers.hlsli">
+      <Filter>Shaders\Headers</Filter>
+    </None>
+    <None Include="Inc\HLSL\Lighting.hlsli">
+      <Filter>Shaders\Headers</Filter>
+    </None>
+    <None Include="Inc\HLSL\terrainSamplers.hlsli">
+      <Filter>Shaders\Headers</Filter>
+    </None>
+    <None Include="Inc\HLSL\GS_ParticleFire.hlsl">
+      <Filter>Shaders\GeometryShader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

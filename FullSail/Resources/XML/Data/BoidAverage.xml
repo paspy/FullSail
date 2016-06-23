@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<BoidInfo>
+  <!--Following Flocking-->
+  <LeaderCohesionWeight>10</LeaderCohesionWeight>
+  <LeaderAlignmentWeight>10 </LeaderAlignmentWeight>
+  <LeaderSeperationWeight>10 </LeaderSeperationWeight>
+
+  <!--Squad Flocking-->
+  <SquadCohesionWeight>10</SquadCohesionWeight>
+  <SquadAlignmentWeight>10</SquadAlignmentWeight>
+  <SquadSeperationWeight>10</SquadSeperationWeight>
+
+  <!--normal Squad Values-->
+  <PursuitWeight>10</PursuitWeight>
+  <EvadeWeight>10</EvadeWeight>
+  <FleeWeight>10</FleeWeight>
+  <SeekWeight>10</SeekWeight>
+
+  <FlockRadius>3</FlockRadius>
+  <MaxCombinedRadius>16</MaxCombinedRadius>
+</BoidInfo>

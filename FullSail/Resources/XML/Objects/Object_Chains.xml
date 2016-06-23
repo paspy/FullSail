@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity3D Type="2">  
+  <Renderinfo>Chains</Renderinfo>
+  <CollisionMesh>CollisionChains</CollisionMesh>
+  <Name>Tortuga</Name>
+  <Port Name = "Port Royalty" ObjectFile ="Port_PortRoyalty">
+    <Transform>
+      <Position>
+        <X>2.683</X>
+        <Y>0.3</Y>
+        <Z>-0.244</Z>
+      </Position>
+      <Rotation>
+        <Y>-129.952</Y>
+        <!--This is in degrees for quick thought process-->
+      </Rotation>
+      <Scale>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Scale>
+    </Transform>
+  </Port>
+</Entity3D>
+

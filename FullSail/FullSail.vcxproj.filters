@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\FileLoader.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainWindow.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Transform.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DXLog.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AudioSystemWwise.cpp">
+      <Filter>AudioSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainMenuScene.cpp">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InstructionsScene.cpp">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PauseMenuScene.cpp">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OptionsMenuScene.cpp">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameplayScene.cpp">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PortMenuScene.cpp">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CreditsScene.cpp">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneManager.cpp">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Entity3D.cpp">
+      <Filter>Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IEntity.cpp">
+      <Filter>Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IShipPart.cpp">
+      <Filter>Objects\Ship\ShipPart\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ship.cpp">
+      <Filter>Objects\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hull.cpp">
+      <Filter>Objects\Ship\ShipPart</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mast.cpp">
+      <Filter>Objects\Ship\ShipPart</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Cannon.cpp">
+      <Filter>Objects\Ship\ShipPart</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IController.cpp">
+      <Filter>Objects\Ship\Controller\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerController.cpp">
+      <Filter>Objects\Ship\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IAmmo.cpp">
+      <Filter>Objects\Ship\Ammo\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AiController.cpp">
+      <Filter>Objects\Ship\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SideCannonHandler.cpp">
+      <Filter>Objects\Ship\ShipPart</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EntityManager.cpp">
+      <Filter>Mangers&amp;Systems\EntityManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoundManager.cpp">
+      <Filter>Mangers&amp;Systems\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IScene.cpp">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Colliders.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CollisionManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Entity2D.cpp">
+      <Filter>Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUITexture.cpp">
+      <Filter>Objects\GUIEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUIManager.cpp">
+      <Filter>Mangers&amp;Systems\GUIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IntroScene.cpp">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUIText.cpp">
+      <Filter>Objects\GUIEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EntityLoader.cpp">
+      <Filter>Mangers&amp;Systems\XMLContentLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\pch.cpp" />
+    <ClCompile Include="Source\IBoid.cpp">
+      <Filter>Objects\Ship\Controller\Boids\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUISlider.cpp">
+      <Filter>Objects\GUIEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Crate.cpp">
+      <Filter>Objects\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Port.cpp">
+      <Filter>Objects\Port</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boid.cpp">
+      <Filter>Objects\Seagull</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gull.cpp">
+      <Filter>Objects\Seagull</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\XTime.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\fsEventManager.cpp">
+      <Filter>Mangers&amp;Systems\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Island.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WaypointSystem.cpp">
+      <Filter>Mangers&amp;Systems\WaypointSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CinematicCamera.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSteeringManger.cpp">
+      <Filter>Mangers&amp;Systems\SteeringManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUIAnimation.cpp">
+      <Filter>Objects\GUIEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TradeRoute.cpp">
+      <Filter>Mangers&amp;Systems\TradeRouteSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Squad.cpp">
+      <Filter>Objects\Squad</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CargoSquad.cpp">
+      <Filter>Objects\Squad</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AIShip.cpp">
+      <Filter>Objects\Ship Children</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BossShip.cpp">
+      <Filter>Objects\Ship Children</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerShip.cpp">
+      <Filter>Objects\Ship Children</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameSetting.cpp">
+      <Filter>Game\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStatistics.cpp">
+      <Filter>Game\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinLoseScene.cpp">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\ExporterHeader.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileLoader.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Interface.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IWindProc.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainWindow.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Transform.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DXLog.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DXLog.hpp">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Log.hpp">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AudioSystemWwise.h">
+      <Filter>AudioSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Wwise_IDs.h">
+      <Filter>AudioSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PortMenuScene.h">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainMenuScene.h">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InstructionsScene.h">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneManager.h">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IScene.h">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PauseMenuScene.h">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OptionsMenuScene.h">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameplayScene.h">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CreditsScene.h">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stack.h">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Entity3D.h">
+      <Filter>Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IEntity.h">
+      <Filter>Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IShipPart.h">
+      <Filter>Objects\Ship\ShipPart\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ship.h">
+      <Filter>Objects\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hull.h">
+      <Filter>Objects\Ship\ShipPart</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mast.h">
+      <Filter>Objects\Ship\ShipPart</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Cannon.h">
+      <Filter>Objects\Ship\ShipPart</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IController.h">
+      <Filter>Objects\Ship\Controller\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerController.h">
+      <Filter>Objects\Ship\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IAmmo.h">
+      <Filter>Objects\Ship\Ammo\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AiController.h">
+      <Filter>Objects\Ship\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EntityManager.h">
+      <Filter>Mangers&amp;Systems\EntityManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LinkedList.h">
+      <Filter>Mangers&amp;Systems\EntityManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundManager.h">
+      <Filter>Mangers&amp;Systems\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Colliders.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CollisionLibrary.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CollisionManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUITexture.h">
+      <Filter>Objects\GUIEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Entity2D.h">
+      <Filter>Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUIManager.h">
+      <Filter>Mangers&amp;Systems\GUIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IntroScene.h">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUIText.h">
+      <Filter>Objects\GUIEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EntityLoader.h">
+      <Filter>Mangers&amp;Systems\XMLContentLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pch.h" />
+    <ClInclude Include="Source\IBoid.h">
+      <Filter>Objects\Ship\Controller\Boids\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUISlider.h">
+      <Filter>Objects\GUIEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Crate.h">
+      <Filter>Objects\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Port.h">
+      <Filter>Objects\Port</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Boid.h">
+      <Filter>Objects\Seagull</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Gull.h">
+      <Filter>Objects\Seagull</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\XTime.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SideCannonHandler.h">
+      <Filter>Objects\Ship\ShipPart</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\fsEventManager.h">
+      <Filter>Mangers&amp;Systems\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Island.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WaypointSystem.h">
+      <Filter>Mangers&amp;Systems\WaypointSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\fsEventIDs.h">
+      <Filter>Mangers&amp;Systems\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CinematicCamera.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSteeringManger.h">
+      <Filter>Mangers&amp;Systems\SteeringManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUIAnimation.h">
+      <Filter>Objects\GUIEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TradeRoute.h">
+      <Filter>Mangers&amp;Systems\TradeRouteSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Squad.h">
+      <Filter>Objects\Squad</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CargoSquad.h">
+      <Filter>Objects\Squad</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AIShip.h">
+      <Filter>Objects\Ship Children</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BossShip.h">
+      <Filter>Objects\Ship Children</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerShip.h">
+      <Filter>Objects\Ship Children</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameSetting.h">
+      <Filter>Game\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStatistics.h">
+      <Filter>Game\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WinLoseScene.h">
+      <Filter>Mangers&amp;Systems\SceneManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3e3384d1-06e6-4921-a272-e168a2a72cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{a0d589f4-86b7-4009-bfbf-3ce57e41908c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{564caf58-f29d-4f10-abe8-02cd20a71220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{f3383f0f-717a-4591-84ca-bc368cc50e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AudioSystem">
+      <UniqueIdentifier>{b5cf46ba-735a-4ad0-95c4-55ab9e4248e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mangers&amp;Systems">
+      <UniqueIdentifier>{9c471271-f4b2-4f12-a2dd-f2b820f67bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mangers&amp;Systems\EntityManager">
+      <UniqueIdentifier>{fd1c60dd-68c8-4300-aa3d-d46eaf1ce639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Entity">
+      <UniqueIdentifier>{f1864da9-d016-4110-9a73-57063e3ad17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Ship">
+      <UniqueIdentifier>{e8c049d3-fb17-4c69-a9f8-2ff64f5d1d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Ship\Controller">
+      <UniqueIdentifier>{3e152a41-be76-4a2f-94b7-e9437cccdce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Ship\Ammo">
+      <UniqueIdentifier>{c4889306-3329-4de9-a3c2-8f756731e5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Ship\Controller\Interface">
+      <UniqueIdentifier>{7bbb1dde-ad42-4985-9ef0-f7dcfe417804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Ship\Ammo\Interface">
+      <UniqueIdentifier>{563f9c82-8296-4fa2-a9f5-97571205ea72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mangers&amp;Systems\GUIManager">
+      <UniqueIdentifier>{2e3ad15a-3763-4519-af11-bbbef62dd2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\GUIEntity">
+      <UniqueIdentifier>{45b55816-d0bb-40d6-aa67-56e7cc7e8da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mangers&amp;Systems\SceneManager">
+      <UniqueIdentifier>{4c2e9074-f228-4f25-99bc-0f7b0fb269ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mangers&amp;Systems\XMLContentLoader">
+      <UniqueIdentifier>{a29be1f1-ebbb-4dc6-8753-c96f141a1ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Ship\Controller\Boids">
+      <UniqueIdentifier>{07bd9f1c-37c3-4801-a77a-6317567f8587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Ship\Controller\Boids\Interface">
+      <UniqueIdentifier>{0a9dfda2-c429-4a14-ba93-3eca6d8d55c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Ship\ShipPart">
+      <UniqueIdentifier>{caaeba70-4724-4169-b0d2-da1545d83536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Ship\ShipPart\Interface">
+      <UniqueIdentifier>{28e974d6-7a03-411e-ac53-95eeda30b3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{b2c78925-3cec-4b4d-8dd0-54662538c377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Ship">
+      <UniqueIdentifier>{7908b2a8-fd7e-4c64-a885-7d376335374e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Boid">
+      <UniqueIdentifier>{6d648b95-7f5b-41a6-b69e-fc9eeb29ba3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Island">
+      <UniqueIdentifier>{782a652a-5762-46ba-a942-e131db570ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Misc">
+      <UniqueIdentifier>{56d7c18f-e225-41d9-8309-8333d9288c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Port">
+      <UniqueIdentifier>{7e277df8-c231-4a9b-9183-7aeb7692c7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Seagull">
+      <UniqueIdentifier>{5573e84c-4e8c-4976-8897-407135f88b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mangers&amp;Systems\EventManager">
+      <UniqueIdentifier>{57915484-b266-41ac-b86c-dfc27a5cc5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mangers&amp;Systems\WaypointSystem">
+      <UniqueIdentifier>{fb46e358-52c6-42bb-ab52-003b306791cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mangers&amp;Systems\SoundManager">
+      <UniqueIdentifier>{35d98f8b-4621-4f5d-9f37-9f900515e354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mangers&amp;Systems\SteeringManager">
+      <UniqueIdentifier>{899c2eee-5baf-43d0-b638-ee21eeee4ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Port">
+      <UniqueIdentifier>{3b35f75f-0627-4558-b6d6-7a4352ae67ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\TextureSetup">
+      <UniqueIdentifier>{d4dd9f90-2710-4d3b-8339-9868430d1787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mangers&amp;Systems\TradeRouteSystem">
+      <UniqueIdentifier>{71b7a488-3fa3-4432-aa32-c68d9cf4febf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Squad">
+      <UniqueIdentifier>{3a23cc2d-291b-4417-952b-c7584ed67de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Ship Children">
+      <UniqueIdentifier>{ce1b5c1b-d58a-42bb-8d38-3e6ac43a8ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameData">
+      <UniqueIdentifier>{3e8cc37f-8c82-421e-8a16-136dd1bd3c68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Resources\XML\Objects\Object_BottomFeeder.xml">
+      <Filter>XML\Island</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_Chains.xml">
+      <Filter>XML\Island</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_Jamaal.xml">
+      <Filter>XML\Island</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_NotApostrophe.xml">
+      <Filter>XML\Island</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_OldCountry.xml">
+      <Filter>XML\Island</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_ShortCanal.xml">
+      <Filter>XML\Island</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_SneakySnake.xml">
+      <Filter>XML\Island</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_Start.xml">
+      <Filter>XML\Island</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_Volcano.xml">
+      <Filter>XML\Island</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_Apostrophe.xml">
+      <Filter>XML\Island</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_DragonTooth.xml">
+      <Filter>XML\Island</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_GoldShip.xml">
+      <Filter>XML\Ship</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_MerchantShip.xml">
+      <Filter>XML\Ship</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_MilitaryShip.xml">
+      <Filter>XML\Ship</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_PlayerShip.xml">
+      <Filter>XML\Ship</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_Port_MonsoonRetreat.xml">
+      <Filter>XML\Port</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_Port_OnePieceCove.xml">
+      <Filter>XML\Port</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_Port_PortRoyalty.xml">
+      <Filter>XML\Port</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_Port_SaltierSpitoon.xml">
+      <Filter>XML\Port</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_Port_Tortuga.xml">
+      <Filter>XML\Port</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_Port_DarkBeard%27sEnclave.xml">
+      <Filter>XML\Port</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_Port_DeadKrakenHarbor.xml">
+      <Filter>XML\Port</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_Port_IsledeCervantes.xml">
+      <Filter>XML\Port</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Scene\SceneCaribbean.xml">
+      <Filter>XML\Misc</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Data\CameraOffset.xml">
+      <Filter>XML\Misc</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Data\BoidAverage.xml">
+      <Filter>XML\Boid</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Data\BoidFast.xml">
+      <Filter>XML\Boid</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_Apostrophe.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_BottomFeeder.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_Chains.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_Crate.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_DragonTooth.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_Gold.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_Island0.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_Island1.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_Jamaal.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_Merchant.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_Military.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_NotApostrophe.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_OldCountry.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_PlayerShip.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_Port.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_ShortCanal.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_SneakySnake.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_Start.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Textures\TextureList_Volcano.xml">
+      <Filter>XML\TextureSetup</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_CargoGuard.xml">
+      <Filter>XML\Ship</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_CargoShip.xml">
+      <Filter>XML\Ship</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_FleetMember.xml">
+      <Filter>XML\Ship</Filter>
+    </Xml>
+    <Xml Include="Resources\XML\Objects\Object_BossShip.xml">
+      <Filter>XML\Ship</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\XML\Objects\ReadMe.txt">
+      <Filter>XML\Misc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

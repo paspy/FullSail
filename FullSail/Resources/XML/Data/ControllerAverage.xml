@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--0 is for the Merchant Ship-->
+<!--1 is for the Military Ship-->
+
+<Controller aiType ="1">
+
+  <!--Variables-->
+  <Movement>
+    <!--floats-->
+    <SlowDownRadius>4</SlowDownRadius>
+  </Movement>
+  
+  <Attack>
+    <!--floats-->
+    <!--Setting these to negative for the state not to happen-->
+    <AttackDistance>110</AttackDistance>
+    <SideAttackDistance>30</SideAttackDistance>
+    <SideAttackPointRange>-1</SideAttackPointRange>
+    <StationaryDistance>36</StationaryDistance>
+  </Attack>
+  
+  <CannonFire>
+    <!--floats-->
+    <SideCannonAttackDistance>30</SideCannonAttackDistance>
+    <SideCannonAngleLimit>0.98</SideCannonAngleLimit>
+    <FrontCannonRange>0.98</FrontCannonRange>
+  </CannonFire>
+  
+  <ExtraInfo>
+    <!--floats-->
+    <FleeHealth>-1</FleeHealth>
+  </ExtraInfo>
+  
+</Controller>

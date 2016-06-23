@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RenderData>
+  
+  <!--DO NOT FORGET TO CHANGE THE NUMBER OF TEXTURE OR YOU WILL NOT SEE ALL THE TEXTURES YOU WANT-->
+  <Mesh model = "BottomFeeder.mesh" textureSize = "1">
+  </Mesh>
+  <!--YOU HAVE BEEN WARNED-->
+
+  <TextureList material ="Island0Material.xml">
+    <diffuse>islands_diffuse.dds</diffuse>
+    <normal></normal>
+    <height></height>
+    <specular></specular>
+    <skybox></skybox>
+    <emissive></emissive>
+    <AO></AO>
+  </TextureList>
+  
+</RenderData>

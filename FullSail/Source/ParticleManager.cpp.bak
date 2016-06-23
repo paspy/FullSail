@@ -1,0 +1,114 @@
+#include "pch.h"
+#include "ParticleManager.h"
+#include "Camera.h"
+
+namespace FSParticle {
+
+    CParticleManager * CParticleManager::GetInstance() {
+        static CParticleManager theInstance;
+        return &theInstance;
+    }
+
+    bool CParticleManager::AddEntity( CParticleSystem * particle ) {
+        FS_ASSERT( particle != nullptr, "CParticleManager::AddEntity - parameter cannot be null" );
+        m_tParticleObjs.push_back( ParticlePair( particle->Name(), particle ) );
+
+        return true;
+    }
+
+    bool CParticleManager::RemoveEntity( CParticleSystem * particle ) {
+        FS_ASSERT( particle != nullptr, "CParticleSystem::RemoveEntity - parameter cannot be null" );
+        FS_ASSERT( m_bWRLock == false, "CParticleSystem::RemoveEntity - cannot remove while iterating" );
+
+        for ( auto i = 0; i < m_tParticleObjs.size(); i++ ) {
+            if ( m_tParticleObjs[i].second == particle ) {
+                m_tParticleObjs.erase( m_tParticleObjs.begin() + i );
+                delete particle;
+                particle = nullptr;
+                return true;
+            }
+        }
+        return false;
+    }
+
+    bool CParticleManager::RemoveAll() {
+        FS_ASSERT( m_bWRLock == false, "CParticleManager::RemoveAll - cannot remove while iterating" );
+        // lock before iterate
+        m_bWRLock = true;
+        {
+            for ( auto &obj : m_tParticleObjs ) {
+                delete obj.second;
+                obj.second = nullptr;
+            }
+            m_tParticleObjs.clear();
+        }
+        // lock after iterate
+        m_bWRLock = false;
+        return true;
+    }
+
+    void CParticleManager::UpdateAll( float _dt, Camera* _camera ) {
+        FS_ASSERT( m_bWRLock == false, "CParticleManager::UpdateAll - cannot update while iterating" );
+        static float totalTime = 0;
+        totalTime += _dt;
+        // lock before iterate
+        m_bWRLock = true;
+        {
+            for ( auto &obj : m_tParticleObjs ) {
+                auto pos = _camera->Position();
+                obj.second->SetEyePos( pos );
+                obj.second->Update( _dt, totalTime, _camera->View()->GetViewProjMatrix() );
+            }
+        }
+        // lock after iterate
+        m_bWRLock = false;
+    }
+
+    void CParticleManager::RenderAll() {
+        FS_ASSERT( m_bWRLock == false, "CParticleManager::RenderAll - cannot render while iterating" );
+        
+        // lock before iterate
+        m_bWRLock = true;
+        {
+            for ( auto &obj : m_tParticleObjs ) {
+                auto rtv = Renderer::CRendererController::m_deviceResources->GetBackBufferRenderTargetView();
+                auto dsv = Renderer::CRendererController::m_deviceResources->GetDepthStencilView();
+                obj.second->Begin( rtv, dsv );
+                obj.second->Render();
+                obj.second->End();
+            }
+        }
+        // lock after iterate
+        m_bWRLock = false;
+    }
+
+    void CParticleManager::PauseAll() {
+        for ( auto &obj : m_tParticleObjs ) {
+            obj.second->Pause();
+        }
+    }
+
+    void CParticleManager::ResumeAll() {
+        for ( auto &obj : m_tParticleObjs ) {
+            obj.second->Play();
+        }
+    }
+
+    FSParticle::CParticleSystem* CParticleManager::CreateFire( std::string name, unsigned int maxParticles, bool playAwake ) {
+        auto device = Renderer::CRendererController::m_deviceResources->GetD3DDevice();
+        auto context = Renderer::CRendererController::m_deviceResources->GetD3DDeviceContext();
+        CParticleSystem* particle = newx CParticleSystem( device, context );
+
+        std::vector<std::wstring> flares;
+        flares.push_back( L"../../FullSail/Resources/Particle/flare.dds" );
+        particle->Init( maxParticles, L"../../ParticleSystem/Effects/BaseFire.fx", flares );
+        particle->Name( name );
+        if ( playAwake )
+            particle->Play();
+        particle->SetEmitPos( { 0,0,0} );
+        AddEntity( particle );
+        return particle;
+    }
+
+}
+

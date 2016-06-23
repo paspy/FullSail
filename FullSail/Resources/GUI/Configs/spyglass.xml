@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUIConfiguration>
+
+    <GUITexture Count = "7">
+    
+        <GUITexture Name = "Player_Weak_Cannons">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.05</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 0 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 1 </Active><!--Boolean-->
+        </GUITexture>
+    
+        <GUITexture Name = "Player_Cannons">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.05</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 0 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+    
+        <GUITexture Name = "Player_Strong_Cannons">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.05</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 0 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+        <GUITexture Name = "Player_Crew">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.425</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 1 </Active><!--Boolean-->
+        </GUITexture>
+        
+        <GUITexture Name = "Player_Slow_Sails">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.8</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 2 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 1 </Active><!--Boolean-->
+        </GUITexture>
+        
+        <GUITexture Name = "Player_Sails">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.8</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 2 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+        
+        <GUITexture Name = "Player_Fast_Sails">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.8</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 2 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+    </GUITexture>
+
+    <GUIText Count = "1">
+
+    <GUIText Name = "CrewNumber">
+      <Text></Text>
+      <Font>Forte</Font>
+      <Position>
+            <x>0.0416</x>
+            <y>0.5</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUIText>
+    </GUIText>
+
+    <GUISlider Count = "0">
+    </GUISlider>
+
+</GUIConfiguration>

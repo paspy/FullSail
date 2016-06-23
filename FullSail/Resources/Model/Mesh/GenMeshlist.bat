@@ -1,0 +1,1 @@
+dir *.mesh /b /a-d -h -a -s >Meshes.txt

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RenderData>
+  <Mesh model = "MerhantShip.mesh" textureSize = "1">
+  </Mesh>
+
+  <TextureList material ="GoldShipMaterial.xml">
+    <diffuse>Gold_D.dds</diffuse>
+    <normal>Gold_N.dds</normal>
+    <height></height>
+    <specular></specular>
+    <skybox></skybox>
+    <emissive></emissive>
+    <AO></AO>
+  </TextureList>
+</RenderData>

@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{14B65704-12E4-4B71-94A7-78DE65317035}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FullSail</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ImageContentTask.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\DirectXTK\Inc\;$(SolutionDir)Dependencies\Wwise\include;$(SolutionDir)Dependencies\Wwise\SoundEngine\Win32;$(SolutionDir)Dependencies\TinyXML2;$(SolutionDir)Dependencies\AntTweakBar\include;$(SolutionDir)MemoryManager\;$(SolutionDir)FSUtilities\;$(SolutionDir)Renderer\Inc;$(SolutionDir)AssetManager\;$(SolutionDir)ParticleSystem\;$(SolutionDir)Animation\</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\Wwise\$(Platform)\$(Configuration)\lib</AdditionalLibraryDirectories>
+    </Link>
+    <ImageContentTask>
+      <ContentOutput>$(SolutionDir)FullSail\Resources\GUI\Sprites\Outputs\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <PreBuildEvent>
+      <Command>cd $(SolutionDir)FullSail\Resources\Model\Mesh\
+call GenMeshlist.bat
+cd $(SolutionDir)FullSail\Resources\Model\Texture\
+call GenTexturelist.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\DirectXTK\Inc\;$(SolutionDir)Dependencies\Wwise\include;$(SolutionDir)Dependencies\Wwise\SoundEngine\Win32;$(SolutionDir)Dependencies\TinyXML2;$(SolutionDir)Dependencies\AntTweakBar\include;$(SolutionDir)MemoryManager\;$(SolutionDir)FSUtilities\;$(SolutionDir)Renderer\Inc;$(SolutionDir)AssetManager\;$(SolutionDir)ParticleSystem\;$(SolutionDir)Animation\</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\Wwise\$(Platform)\$(Configuration)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ImageContentTask>
+      <ContentOutput>$(SolutionDir)FullSail\Resources\GUI\Sprites\Outputs\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <PreBuildEvent>
+      <Command>cd $(SolutionDir)FullSail\Resources\Model\Mesh\
+call GenMeshlist.bat
+cd $(SolutionDir)FullSail\Resources\Model\Texture\
+call GenTexturelist.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\DirectXTK\Inc\;$(SolutionDir)Dependencies\Wwise\include;$(SolutionDir)Dependencies\Wwise\SoundEngine\Win32;$(SolutionDir)Dependencies\TinyXML2;$(SolutionDir)Dependencies\AntTweakBar\include;$(SolutionDir)MemoryManager\;$(SolutionDir)FSUtilities\;$(SolutionDir)Renderer\Inc;$(SolutionDir)AssetManager\;$(SolutionDir)ParticleSystem\;$(SolutionDir)Animation\</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\Wwise\$(Platform)\$(Configuration)\lib</AdditionalLibraryDirectories>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>true</MapExports>
+    </Link>
+    <ImageContentTask>
+      <ContentOutput>$(SolutionDir)FullSail\Resources\GUI\Sprites\Outputs\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <PreBuildEvent>
+      <Command>cd $(SolutionDir)FullSail\Resources\Model\Mesh\
+call GenMeshlist.bat
+cd $(SolutionDir)FullSail\Resources\Model\Texture\
+call GenTexturelist.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\DirectXTK\Inc\;$(SolutionDir)Dependencies\Wwise\include;$(SolutionDir)Dependencies\Wwise\SoundEngine\Win32;$(SolutionDir)Dependencies\TinyXML2;$(SolutionDir)Dependencies\AntTweakBar\include;$(SolutionDir)MemoryManager\;$(SolutionDir)FSUtilities\;$(SolutionDir)Renderer\Inc;$(SolutionDir)AssetManager\;$(SolutionDir)ParticleSystem\;$(SolutionDir)Animation\</AdditionalIncludeDirectories>
+      <OmitFramePointers>false</OmitFramePointers>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\Wwise\$(Platform)\$(Configuration)\lib</AdditionalLibraryDirectories>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>true</MapExports>
+    </Link>
+    <ImageContentTask>
+      <ContentOutput>$(SolutionDir)FullSail\Resources\GUI\Sprites\Outputs\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <PreBuildEvent>
+      <Command>cd $(SolutionDir)FullSail\Resources\Model\Mesh\
+call GenMeshlist.bat
+cd $(SolutionDir)FullSail\Resources\Model\Texture\
+call GenTexturelist.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\AiController.cpp" />
+    <ClCompile Include="Source\AIShip.cpp" />
+    <ClCompile Include="Source\Application.cpp" />
+    <ClCompile Include="Source\AudioSystemWwise.cpp" />
+    <ClCompile Include="Source\Boid.cpp" />
+    <ClCompile Include="Source\BossShip.cpp" />
+    <ClCompile Include="Source\Camera.cpp" />
+    <ClCompile Include="Source\Cannon.cpp" />
+    <ClCompile Include="Source\CargoSquad.cpp" />
+    <ClCompile Include="Source\CinematicCamera.cpp" />
+    <ClCompile Include="Source\CSteeringManger.cpp" />
+    <ClCompile Include="Source\EntityLoader.cpp" />
+    <ClCompile Include="Source\fsEventManager.cpp" />
+    <ClCompile Include="Source\GameSetting.cpp" />
+    <ClCompile Include="Source\GameStatistics.cpp" />
+    <ClCompile Include="Source\GUIAnimation.cpp" />
+    <ClCompile Include="Source\GUIManager.cpp" />
+    <ClCompile Include="Source\Colliders.cpp" />
+    <ClCompile Include="Source\CollisionManager.cpp" />
+    <ClCompile Include="Source\Crate.cpp" />
+    <ClCompile Include="Source\CreditsScene.cpp" />
+    <ClCompile Include="Source\DXLog.cpp" />
+    <ClCompile Include="Source\Entity2D.cpp" />
+    <ClCompile Include="Source\Entity3D.cpp" />
+    <ClCompile Include="Source\EntityManager.cpp" />
+    <ClCompile Include="Source\FileLoader.cpp" />
+    <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\GameplayScene.cpp" />
+    <ClCompile Include="Source\GUISlider.cpp" />
+    <ClCompile Include="Source\GUIText.cpp" />
+    <ClCompile Include="Source\GUITexture.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\Gull.cpp" />
+    <ClCompile Include="Source\Hull.cpp" />
+    <ClCompile Include="Source\IAmmo.cpp" />
+    <ClCompile Include="Source\IBoid.cpp" />
+    <ClCompile Include="Source\IController.cpp" />
+    <ClCompile Include="Source\IEntity.cpp" />
+    <ClCompile Include="Source\InstructionsScene.cpp" />
+    <ClCompile Include="Source\IntroScene.cpp" />
+    <ClCompile Include="Source\IScene.cpp" />
+    <ClCompile Include="Source\IShipPart.cpp" />
+    <ClCompile Include="Source\Island.cpp" />
+    <ClCompile Include="Source\Log.cpp" />
+    <ClCompile Include="Source\MainMenuScene.cpp" />
+    <ClCompile Include="Source\MainWindow.cpp" />
+    <ClCompile Include="Source\Mast.cpp" />
+    <ClCompile Include="Source\OptionsMenuScene.cpp" />
+    <ClCompile Include="Source\PauseMenuScene.cpp" />
+    <ClCompile Include="Source\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsManager.cpp" />
+    <ClCompile Include="Source\PlayerController.cpp" />
+    <ClCompile Include="Source\PlayerShip.cpp" />
+    <ClCompile Include="Source\Port.cpp" />
+    <ClCompile Include="Source\PortMenuScene.cpp" />
+    <ClCompile Include="Source\SceneManager.cpp" />
+    <ClCompile Include="Source\Ship.cpp" />
+    <ClCompile Include="Source\SideCannonHandler.cpp" />
+    <ClCompile Include="Source\SoundManager.cpp" />
+    <ClCompile Include="Source\Squad.cpp" />
+    <ClCompile Include="Source\TradeRoute.cpp" />
+    <ClCompile Include="Source\Transform.cpp" />
+    <ClCompile Include="Source\WaypointSystem.cpp" />
+    <ClCompile Include="Source\WinLoseScene.cpp" />
+    <ClCompile Include="Source\XTime.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\AiController.h" />
+    <ClInclude Include="Source\AIShip.h" />
+    <ClInclude Include="Source\Application.h" />
+    <ClInclude Include="Source\Application.hpp" />
+    <ClInclude Include="Source\AudioSystemWwise.h" />
+    <ClInclude Include="Source\Boid.h" />
+    <ClInclude Include="Source\BossShip.h" />
+    <ClInclude Include="Source\Camera.h" />
+    <ClInclude Include="Source\Cannon.h" />
+    <ClInclude Include="Source\CargoSquad.h" />
+    <ClInclude Include="Source\CinematicCamera.h" />
+    <ClInclude Include="Source\CSteeringManger.h" />
+    <ClInclude Include="Source\EntityLoader.h" />
+    <ClInclude Include="Source\fsEventIDs.h" />
+    <ClInclude Include="Source\fsEventManager.h" />
+    <ClInclude Include="Source\GameSetting.h" />
+    <ClInclude Include="Source\GameStatistics.h" />
+    <ClInclude Include="Source\GUIAnimation.h" />
+    <ClInclude Include="Source\GUIManager.h" />
+    <ClInclude Include="Source\Colliders.h" />
+    <ClInclude Include="Source\CollisionLibrary.h" />
+    <ClInclude Include="Source\CollisionManager.h" />
+    <ClInclude Include="Source\Crate.h" />
+    <ClInclude Include="Source\CreditsScene.h" />
+    <ClInclude Include="Source\DXLog.h" />
+    <ClInclude Include="Source\DXLog.hpp" />
+    <ClInclude Include="Source\Entity3D.h" />
+    <ClInclude Include="Source\EntityManager.h" />
+    <ClInclude Include="Source\ExporterHeader.h" />
+    <ClInclude Include="Source\FileLoader.h" />
+    <ClInclude Include="Source\Game.h" />
+    <ClInclude Include="Source\GameplayScene.h" />
+    <ClInclude Include="Source\GUISlider.h" />
+    <ClInclude Include="Source\GUIText.h" />
+    <ClInclude Include="Source\GUITexture.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Source\Gull.h" />
+    <ClInclude Include="Source\Hull.h" />
+    <ClInclude Include="Source\IAmmo.h" />
+    <ClInclude Include="Source\IBoid.h" />
+    <ClInclude Include="Source\IController.h" />
+    <ClInclude Include="Source\IEntity.h" />
+    <ClInclude Include="Source\InstructionsScene.h" />
+    <ClInclude Include="Source\Interface.h" />
+    <ClInclude Include="Source\IntroScene.h" />
+    <ClInclude Include="Source\IScene.h" />
+    <ClInclude Include="Source\IShipPart.h" />
+    <ClInclude Include="Source\Island.h" />
+    <ClInclude Include="Source\IWindProc.h" />
+    <ClInclude Include="Source\LinkedList.h" />
+    <ClInclude Include="Source\Log.h" />
+    <ClInclude Include="Source\Log.hpp" />
+    <ClInclude Include="Source\MainMenuScene.h" />
+    <ClInclude Include="Source\MainWindow.h" />
+    <ClInclude Include="Source\Mast.h" />
+    <ClInclude Include="Source\Math.h" />
+    <ClInclude Include="Source\Entity2D.h" />
+    <ClInclude Include="Source\OptionsMenuScene.h" />
+    <ClInclude Include="Source\PauseMenuScene.h" />
+    <ClInclude Include="Source\pch.h" />
+    <ClInclude Include="Source\PhysicsManager.h" />
+    <ClInclude Include="Source\PlayerController.h" />
+    <ClInclude Include="Source\PlayerShip.h" />
+    <ClInclude Include="Source\Port.h" />
+    <ClInclude Include="Source\PortMenuScene.h" />
+    <ClInclude Include="Source\SceneManager.h" />
+    <ClInclude Include="Source\Ship.h" />
+    <ClInclude Include="Source\SideCannonHandler.h" />
+    <ClInclude Include="Source\SoundManager.h" />
+    <ClInclude Include="Source\Squad.h" />
+    <ClInclude Include="Source\Stack.h" />
+    <ClInclude Include="Source\TradeRoute.h" />
+    <ClInclude Include="Source\Transform.h" />
+    <ClInclude Include="Source\WaypointSystem.h" />
+    <ClInclude Include="Source\WinLoseScene.h" />
+    <ClInclude Include="Source\Wwise_IDs.h" />
+    <ClInclude Include="Source\XTime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AssetManager\AssetManager.vcxproj">
+      <Project>{eff07607-82fa-45d6-87db-544472c370bc}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Dependencies\DirectXTK\DirectXTK_Desktop_2015.vcxproj">
+      <Project>{e0b52ae7-e160-4d32-bf3f-910b785e5a8e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Dependencies\TinyXML2\tinyxml2\tinyxml2.vcxproj">
+      <Project>{d1c528b6-aa02-4d29-9d61-dc08e317a70d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\FSUtilities\FSUtilities.vcxproj">
+      <Project>{2eef38b1-765d-4721-8e23-516b0896268c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MemoryManager\MemoryManager.vcxproj">
+      <Project>{a7f6985b-5a6f-45de-9273-d5ce6d3ca1a0}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Renderer\Renderer.vcxproj">
+      <Project>{708657a3-c3af-463c-a228-1cddf9e12032}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Resources\XML\Data\BoidAverage.xml" />
+    <Xml Include="Resources\XML\Data\BoidFast.xml" />
+    <Xml Include="Resources\XML\Data\CameraOffset.xml" />
+    <Xml Include="Resources\XML\Objects\Object_Apostrophe.xml" />
+    <Xml Include="Resources\XML\Objects\Object_BossShip.xml" />
+    <Xml Include="Resources\XML\Objects\Object_BottomFeeder.xml" />
+    <Xml Include="Resources\XML\Objects\Object_CargoGuard.xml" />
+    <Xml Include="Resources\XML\Objects\Object_CargoShip.xml" />
+    <Xml Include="Resources\XML\Objects\Object_Chains.xml" />
+    <Xml Include="Resources\XML\Objects\Object_DragonTooth.xml" />
+    <Xml Include="Resources\XML\Objects\Object_FleetMember.xml" />
+    <Xml Include="Resources\XML\Objects\Object_GoldShip.xml" />
+    <Xml Include="Resources\XML\Objects\Object_Jamaal.xml" />
+    <Xml Include="Resources\XML\Objects\Object_MerchantShip.xml" />
+    <Xml Include="Resources\XML\Objects\Object_MilitaryShip.xml" />
+    <Xml Include="Resources\XML\Objects\Object_NotApostrophe.xml" />
+    <Xml Include="Resources\XML\Objects\Object_OldCountry.xml" />
+    <Xml Include="Resources\XML\Objects\Object_PlayerShip.xml" />
+    <Xml Include="Resources\XML\Objects\Object_Port_DarkBeard%27sEnclave.xml" />
+    <Xml Include="Resources\XML\Objects\Object_Port_DeadKrakenHarbor.xml" />
+    <Xml Include="Resources\XML\Objects\Object_Port_IsledeCervantes.xml" />
+    <Xml Include="Resources\XML\Objects\Object_Port_MonsoonRetreat.xml" />
+    <Xml Include="Resources\XML\Objects\Object_Port_OnePieceCove.xml" />
+    <Xml Include="Resources\XML\Objects\Object_Port_PortRoyalty.xml" />
+    <Xml Include="Resources\XML\Objects\Object_Port_SaltierSpitoon.xml" />
+    <Xml Include="Resources\XML\Objects\Object_Port_Tortuga.xml" />
+    <Xml Include="Resources\XML\Objects\Object_ShortCanal.xml" />
+    <Xml Include="Resources\XML\Objects\Object_SneakySnake.xml" />
+    <Xml Include="Resources\XML\Objects\Object_Start.xml" />
+    <Xml Include="Resources\XML\Objects\Object_Volcano.xml" />
+    <Xml Include="Resources\XML\Scene\SceneCaribbean.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_Apostrophe.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_BottomFeeder.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_Chains.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_Crate.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_DragonTooth.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_Gold.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_Island0.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_Island1.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_Jamaal.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_Merchant.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_Military.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_NotApostrophe.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_OldCountry.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_PlayerShip.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_Port.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_ShortCanal.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_SneakySnake.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_Start.xml" />
+    <Xml Include="Resources\XML\Textures\TextureList_Volcano.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\XML\Objects\ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ImageContentTask.targets" />
+  </ImportGroup>
+</Project>

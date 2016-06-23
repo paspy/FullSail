@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUIConfiguration>
+
+    <GUITexture Count = "3">
+    
+        <GUITexture Name = "IntroLogos_GD">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 0 </Layer>
+            <Color>
+                <x>0.0</x><y>0.0</y><z>0.0</z> <w>0.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "IntroLogos_studio">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 0 </Layer>
+            <Color>
+                <x>0.0</x><y>0.0</y><z>0.0</z> <w>0.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "IntroLogos_team">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 0 </Layer>
+            <Color>
+                <x>0.0</x><y>0.0</y><z>0.0</z> <w>0.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+
+    </GUITexture>
+
+    <GUIText Count = "0">
+    </GUIText>
+
+    <GUISlider Count = "0">
+    </GUISlider>
+
+</GUIConfiguration>

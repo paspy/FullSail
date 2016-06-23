@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity3D Type="2">
+  <Renderinfo>SneakySnake</Renderinfo>
+  <CollisionMesh>CollisionSneakySnake</CollisionMesh>
+  <Name>Tortuga</Name>
+  <Port Name = "Saltier Spitoon" ObjectFile ="Port_SaltierSpitoon">
+    <Transform>
+      <Position>
+        <X>3.946</X>
+        <Y>0.3</Y>
+        <Z>-5.031</Z>
+      </Position>
+      <Rotation>
+        <Y>-39.907</Y>
+        <!--This is in degrees for quick thought process-->
+      </Rotation>
+      <Scale>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Scale>
+    </Transform>
+  </Port>
+</Entity3D>
+

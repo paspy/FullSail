@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity3D Type="2">  
+  <Renderinfo>DragonTooth</Renderinfo>
+    <CollisionMesh>CollisionDragonTooth</CollisionMesh>
+  <Name>Tortuga</Name>
+  <Port Name = "Dark Beard's Enclave" ObjectFile ="Port_DarkBeard'sEnclave">
+    <Transform>
+      <Position>
+        <X>-210.999</X>
+        <Y>0</Y>
+        <Z>14.753</Z>
+      </Position>
+      <Rotation>
+        <Y>-187.871</Y>
+        <!--This is in degrees for quick thought process-->
+      </Rotation>
+      <Scale>
+        <X>7</X>
+        <Y>7</Y>
+        <Z>7</Z>
+      </Scale>
+    </Transform>
+  </Port>
+
+</Entity3D>

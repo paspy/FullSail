@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUIConfiguration>
+
+    <GUITexture Count = "1">
+    
+        <GUITexture Name = "xxx">
+            <!--This section is for record some static and offset(dynamic) postion values-->
+            <Static Count = "0">
+                <!--<Initial> <x>0.0</x><y>0.0</y> </Initial>-->
+            </Static>
+            <Dynamic Count = "0">
+                <!--<Cursor> <x>0.0</x> <y>96.0</y> </Cursor>-->
+            </Dynamic>
+            <!--In case need to update the position by time-->
+            
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 0 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 1 </Active><!--Boolean-->
+        </GUITexture>
+        
+    </GUITexture>
+
+    <GUIText Count = "1">
+    
+        <GUIText Name = "xxx">
+                <Text> 0</Text>
+                <Position> <x>0.0</x><y>0.0</y> </Position>
+                <Rotation> 0 </Rotation>
+                <Scale> 1.0 </Scale>
+                <Layer> 0 </Layer>
+                <Color> <x>0.25</x><y>0.25</y><z>0.25</z> <w>1.0</w> </Color>
+                <Center> 0 </Center><!--Boolean-->
+                <Active> 1 </Active><!--Boolean-->
+            </GUIText>
+            
+    </GUIText>
+
+</GUIConfiguration>

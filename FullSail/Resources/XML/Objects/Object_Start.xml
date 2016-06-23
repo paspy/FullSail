@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity3D Type="2">  
+  <Renderinfo>Start</Renderinfo>
+  <CollisionMesh>CollisionStart</CollisionMesh>
+  <Name>Tortuga</Name>
+  <Port Name = "Isle De Cervantes" ObjectFile ="Port_IsledeCervantes">
+    <Transform>
+      <Position>
+        <X>-212.88</X>
+        <Y>0</Y>
+        <Z>-220.691</Z>
+      </Position>
+      <Rotation>
+        <Y>-54.257</Y>
+        <!--This is in degrees for quick thought process-->
+      </Rotation>
+      <Scale>
+        <X>7</X>
+        <Y>7</Y>
+        <Z>7</Z>
+      </Scale>
+    </Transform>
+  </Port>
+</Entity3D>
+

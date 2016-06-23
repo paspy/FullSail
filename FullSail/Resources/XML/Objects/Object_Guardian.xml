@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity3D Type="2">  
+  <Renderinfo>Guardian</Renderinfo>
+  <CollisionMesh>Guardian</CollisionMesh>
+  <Name>Guardian</Name>
+  <!--<Port Name = "Tortuga" ObjectFile ="Port_Tortuga">
+    <Transform>
+      <Position>
+        <X>0.258</X>
+        <Y>0.1</Y>
+        <Z>-0.747</Z>
+      </Position>
+      <Rotation>
+        <Y>-91.646</Y>
+        --><!--This is in degrees for quick thought process--><!--
+      </Rotation>
+      <Scale>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Scale>
+    </Transform>
+  </Port>-->
+</Entity3D>
+

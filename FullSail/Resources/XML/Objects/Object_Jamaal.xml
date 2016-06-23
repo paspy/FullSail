@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity3D Type="2">  
+  <Renderinfo>Jamaal</Renderinfo>
+  <CollisionMesh>CollisionJamaal</CollisionMesh>
+  <Name>Tortuga</Name>
+</Entity3D>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity3D Type="1">
+
+
+  <Renderinfo>FleetMember</Renderinfo>
+  
+  <!--Please keep it in this order cause I load everything in order-->
+  <!--SO with that you ahve been warn, Have a nice day =)-->
+
+  <!--True is for Enemy(1), false is for Player(0)-->
+  <Ship Alignment= "true" Type = "2" Boardable = "false">
+    <Hull Health = "100">
+      <TurnSpeed>1</TurnSpeed>
+    </Hull>
+    <Mast Health = "100">
+      <MaxSpeed>4</MaxSpeed>
+      <Acceleration>0.1</Acceleration>
+      <SlowdownSpeed>0.5</SlowdownSpeed>
+    </Mast>
+    <CannonHandler Health ="100" NumCannon = "3" CurrentAmmo = "0">
+      <Cannon weaponType ="1">
+        <Damage MinDamage = "5" MaxDamage = "10"> </Damage>
+      </Cannon>
+      <Cannon weaponType ="0">
+        <Damage MinDamage = "3" MaxDamage = "5"> </Damage>
+      </Cannon>
+    </CannonHandler>
+    <!--True is for AI(1), false is for Player(0)-->
+    <Controller controller ="true" acceleration ="0.1" rotationAcceleration ="0.1">Average</Controller>
+    <Resource>
+      <Gold>350</Gold>
+      <Food>190</Food>
+      <Rum>10</Rum>
+      <Crew>15</Crew>
+    </Resource>
+  </Ship>
+
+</Entity3D>

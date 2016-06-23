@@ -1,0 +1,21 @@
+#include "pch.h"
+#include "Particle.h"
+
+
+
+CParticle::CParticle()
+{
+}
+
+
+CParticle::~CParticle()
+{
+}
+
+void CParticle::Create()
+{
+}
+
+void CParticle::Update(float _deltaTime)
+{
+}

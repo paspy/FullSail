@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Carribbean>
+
+  <!--Island-->
+  <!--Names & transforms of EACH Island-->
+ <IslandList>
+  <!--Island #1: Tortuga(Starting Point)-->
+  <IslandData name ="Apostrophe" ObjectFile ="Apostrophe">
+    <Transform>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Position>
+      <Rotation>
+        <!--This is in degrees for quick thought process-->
+        <Y>270</Y>
+        <!--I set it to radians while loading in-->
+      </Rotation>
+      <Scale>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Scale>
+    </Transform>
+  </IslandData>
+
+  <!--Island #1: Tortuga(Starting Point)-->
+  <IslandData name ="Bob" ObjectFile ="Bob">
+    <Transform>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Position>
+      <Rotation>
+        <!--This is in degrees for quick thought process-->
+        <Y>270</Y>
+        <!--I set it to radians while loading in-->
+      </Rotation>
+      <Scale>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Scale>
+    </Transform>
+  </IslandData>
+
+  <!--Island #1: Tortuga(Starting Point)-->
+  <IslandData name ="BottomFeeder" ObjectFile ="BottomFeeder">
+    <Transform>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Position>
+      <Rotation>
+        <!--This is in degrees for quick thought process-->
+        <Y>270</Y>
+        <!--I set it to radians while loading in-->
+      </Rotation>
+      <Scale>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Scale>
+    </Transform>
+  </IslandData>
+
+  <!--Island #1: Tortuga(Starting Point)-->
+  <IslandData name ="Chain" ObjectFile ="Chain">
+    <Transform>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Position>
+      <Rotation>
+        <!--This is in degrees for quick thought process-->
+        <Y>270</Y>
+        <!--I set it to radians while loading in-->
+      </Rotation>
+      <Scale>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Scale>
+    </Transform>
+  </IslandData>
+
+  <!--Island #1: Tortuga(Starting Point)-->
+  <IslandData name ="DragonTooth" ObjectFile ="DragonTooth">
+    <Transform>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Position>
+      <Rotation>
+        <!--This is in degrees for quick thought process-->
+        <Y>270</Y>
+        <!--I set it to radians while loading in-->
+      </Rotation>
+      <Scale>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Scale>
+    </Transform>
+  </IslandData>
+
+  <!--Island #1: Tortuga(Starting Point)-->
+  <IslandData name ="Jamaal" ObjectFile ="Jamaal">
+    <Transform>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Position>
+      <Rotation>
+        <!--This is in degrees for quick thought process-->
+        <Y>270</Y>
+        <!--I set it to radians while loading in-->
+      </Rotation>
+      <Scale>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Scale>
+    </Transform>
+  </IslandData>
+
+  <!--Island #1: Tortuga(Starting Point)-->
+  <IslandData name ="OldCountry" ObjectFile ="OldCountry">
+    <Transform>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Position>
+      <Rotation>
+        <!--This is in degrees for quick thought process-->
+        <Y>270</Y>
+        <!--I set it to radians while loading in-->
+      </Rotation>
+      <Scale>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Scale>
+    </Transform>
+  </IslandData>
+
+  <!--Island #1: Tortuga(Starting Point)-->
+  <IslandData name ="ShortCanal" ObjectFile ="ShortCanal">
+    <Transform>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Position>
+      <Rotation>
+        <!--This is in degrees for quick thought process-->
+        <Y>270</Y>
+        <!--I set it to radians while loading in-->
+      </Rotation>
+      <Scale>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Scale>
+    </Transform>
+  </IslandData>
+
+  <!--Island #1: Tortuga(Starting Point)-->
+  <IslandData name ="Start" ObjectFile ="Start">
+    <Transform>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Position>
+      <Rotation>
+        <!--This is in degrees for quick thought process-->
+        <Y>270</Y>
+        <!--I set it to radians while loading in-->
+      </Rotation>
+      <Scale>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Scale>
+    </Transform>
+  </IslandData>
+
+  <!--Island #1: Tortuga(Starting Point)-->
+  <IslandData name ="Volcano" ObjectFile ="Volcano">
+    <Transform>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Position>
+      <Rotation>
+        <!--This is in degrees for quick thought process-->
+        <Y>270</Y>
+        <!--I set it to radians while loading in-->
+      </Rotation>
+      <Scale>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Scale>
+    </Transform>
+  </IslandData>
+
+</IslandList>
+
+  <!--Ships-->
+  <!--Names & transforms of EACH ships-->
+  <ShipList>
+    <ShipData ObjectFile = "PlayerShip">
+      <Transform>
+        <Position>
+          <X>239.896</X>
+          <Y>-0.1</Y>
+          <Z>-242.510</Z>
+        </Position>
+        <Rotation>
+          <!--This is in degrees for quick thought process-->
+          <Y>-33.939</Y>
+          <!--I set it to radians while loading in-->
+        </Rotation>
+        <Scale>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>1</Z>
+        </Scale>
+      </Transform>
+    </ShipData>
+  </ShipList>
+
+  <!--Crates-->
+
+  <!---->
+
+
+</Carribbean>

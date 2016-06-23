@@ -1,0 +1,44 @@
+#ifndef ParticleManager_h__
+#define ParticleManager_h__
+
+#include "pch.h"
+
+typedef std::pair < std::string, FSParticle::CParticleSystem* > ParticlePair;
+typedef std::vector<ParticlePair> ParticleObjects;
+
+class Camera;
+namespace FSParticle {
+
+    class CParticleManager {
+    public:
+        ~CParticleManager() = default;
+
+        // c++11 singleton
+        static CParticleManager *GetInstance();
+
+        bool    AddEntity( CParticleSystem* particle );
+        bool    RemoveEntity( CParticleSystem* particle );
+        bool    RemoveAll();
+
+        void    UpdateAll( float _dt, Camera* _camera );
+        void    RenderAll();
+        void    PauseAll();
+        void    ResumeAll();
+
+        CParticleSystem* CreateFire( std::string name, unsigned int maxParticles = 100, bool playAwake = true );
+
+
+    private:
+        bool            m_bWRLock = false;
+        ParticleObjects m_tParticleObjs;
+
+    protected:
+        CParticleManager() = default;
+        CParticleManager( const CParticleManager & ) = delete;
+        CParticleManager &operator=( const CParticleManager & ) = delete;
+
+    };
+ 
+}
+
+#endif // ParticleManager_h__

@@ -1,0 +1,46 @@
+/***********************************************
+* Filename:  		Particle.h
+* Date:      		3/9/16
+* Mod. Date: 		3/9/16
+* Mod. Initials:	DKR
+* Author:    		David Rasmussen
+* Purpose:   		Particle class to keep individual stats
+					of every particle in the particle system
+************************************************/
+#ifndef Particle_h
+#define Particle_h
+/***********************************************/
+
+// Includes
+
+// Forward Declarations 
+
+class CParticle
+{
+
+private:
+
+	// Members
+
+	// Helper Functions
+
+public:
+
+	// Constructors
+	CParticle();
+
+	// Destructor
+	~CParticle();
+
+	// Accessors
+
+	// Mutators
+
+	// Methods
+	void Create();
+	void Update( float _deltaTime );
+
+};
+
+#endif
+

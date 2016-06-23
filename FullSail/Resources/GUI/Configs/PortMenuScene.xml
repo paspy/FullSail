@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUIConfiguration>
+  
+  <GUITexture Count = "19">
+    
+    <!--Port pages backgrounds-->
+    <GUITexture Name = "PortMenu_newbg">
+        <!--This section is for record some static and offset(dynamic) postion values-->
+        <Static Count = "0">
+        </Static>
+        <Dynamic Count = "0">
+        </Dynamic>
+        <!--In case need to update the position by time-->
+            
+        <Position>
+          <x>0.0</x><y>0.0</y>
+        </Position>
+        <Rotation> 0 </Rotation>
+        <Scale> 1.0 </Scale>
+        <Layer> 0 </Layer>
+        <Color>
+          <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+        </Color>
+        <Center> 0 </Center><!--Boolean-->
+        <Active> 1 </Active><!--Boolean-->
+      </GUITexture>
+    
+    <!--Discount images-->
+    <GUITexture Name = "DiscountIcon">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+          
+      <Position>
+        <x>0.25520833</x>
+        <y>0.12037037</y>
+      </Position>
+      <Rotation> -0.25 </Rotation>
+      <Scale> 0.6 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+    
+    <!--Port cursor-->
+    <GUITexture Name = "PortMenu_Reticle">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "13">
+
+        <!--page1-->
+        <Food> <x>0.57246666</x><y>0.308407407</y> </Food>
+        <Rum> <x>0.57246666</x><y>0.465407407</y> </Rum>
+        <Crew> <x>0.57246666</x><y>0.619259259</y> </Crew>
+        <Repair> <x>0.57246666</x><y>0.7759259259</y> </Repair>
+        <Exit1> <x>0.57246666</x><y>0.90385185</y> </Exit1>
+
+        <!--page2-->
+        <Weapons> <x>0.57246666</x><y>0.308407407</y> </Weapons>
+        <Sails> <x>0.57246666</x><y>0.465407407</y> </Sails>
+        <Hull> <x>0.57246666</x><y>0.619259259</y> </Hull>
+        <Exit2> <x>0.57246666</x><y>0.90385185</y> </Exit2>
+
+        <!--page3-->
+        <Flamethrower> <x>0.57246666</x><y>0.308407407</y> </Flamethrower>
+        <Barrels> <x>0.57246666</x><y>0.465407407</y> </Barrels>
+        <Greekshot> <x>0.57246666</x><y>0.619259259</y> </Greekshot>
+        <Exit3> <x>0.57246666</x><y>0.90385185</y> </Exit3>
+        
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+      
+      <Position>
+        <x>0.0</x><y>0.0</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.0 </Scale>
+      <Layer> 0.5 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+    
+    <!--Input images-->
+    <GUITexture Name = "xbox_lb">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+          
+      <Position> <x>0.68010416</x><y>0.05555555</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.0 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 0 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "xbox_rb">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+          
+      <Position> <x>0.85635416</x><y>0.0555555</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.0 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 0 </Active><!--Boolean-->
+    </GUITexture>
+    
+    <!--Price images-->
+    <GUITexture Name = "PortPricesResources">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+          
+      <Position>
+        <x>0.57166666</x><y>0.57703703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.95 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "PortPricesUpgrades">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+          
+      <Position>
+        <x>0.60066666</x><y>0.58203703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.95 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+
+    
+    <!--Player current stuff-->
+    <GUITexture Name = "PortResources">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+          
+      <Position>
+        <x>0.27604166</x><y>0.407407407</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+
+    <!--GUI Animation textures-->
+    <GUITexture Name = "anim_chest_open_1">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "10">
+
+        <!--page1-->
+        <Food> <x>0.50</x><y>0.26</y> </Food>
+        <Rum> <x>0.50</x><y>0.44</y> </Rum>
+        <Crew> <x>0.50</x><y>0.60</y> </Crew>
+        <Repair> <x>0.50</x><y>0.74</y> </Repair>
+
+        <!--page2-->
+        <Weapons> <x>0.50</x><y>0.26</y> </Weapons>
+        <Sails> <x>0.50</x><y>0.44</y> </Sails>
+        <Hull> <x>0.50</x><y>0.60</y> </Hull>
+
+        <!--page3-->
+        <Flamethrower> <x>0.50</x><y>0.26</y> </Flamethrower>
+        <Barrels> <x>0.50</x><y>0.44</y> </Barrels>
+        <Greekshot> <x>0.50</x><y>0.60</y> </Greekshot>
+        
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+      
+      <Position>
+        <x>0.50</x><y>0.8101851851</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 2.3 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z><w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "anim_chest_open_2">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "10">
+
+        <!--page1-->
+        <Food> <x>0.50</x><y>0.26</y> </Food>
+        <Rum> <x>0.50</x><y>0.44</y> </Rum>
+        <Crew> <x>0.50</x><y>0.60</y> </Crew>
+        <Repair> <x>0.50</x><y>0.74</y> </Repair>
+
+        <!--page2-->
+        <Weapons> <x>0.50</x><y>0.26</y> </Weapons>
+        <Sails> <x>0.50</x><y>0.44</y> </Sails>
+        <Hull> <x>0.50</x><y>0.60</y> </Hull>
+
+        <!--page3-->
+        <Flamethrower> <x>0.50</x><y>0.26</y> </Flamethrower>
+        <Barrels> <x>0.50</x><y>0.44</y> </Barrels>
+        <Greekshot> <x>0.50</x><y>0.60</y> </Greekshot>
+        
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+      
+      <Position>
+        <x>0.50</x><y>0.8101851851</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 2.3 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z><w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "anim_chest_open_3">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "10">
+
+        <!--page1-->
+        <Food> <x>0.50</x><y>0.26</y> </Food>
+        <Rum> <x>0.50</x><y>0.44</y> </Rum>
+        <Crew> <x>0.50</x><y>0.60</y> </Crew>
+        <Repair> <x>0.50</x><y>0.74</y> </Repair>
+
+        <!--page2-->
+        <Weapons> <x>0.50</x><y>0.26</y> </Weapons>
+        <Sails> <x>0.50</x><y>0.44</y> </Sails>
+        <Hull> <x>0.50</x><y>0.60</y> </Hull>
+
+        <!--page3-->
+        <Flamethrower> <x>0.50</x><y>0.26</y> </Flamethrower>
+        <Barrels> <x>0.50</x><y>0.44</y> </Barrels>
+        <Greekshot> <x>0.50</x><y>0.60</y> </Greekshot>
+        
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+      <Position>
+        <x>0.50</x><y>0.8101851851</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 2.3 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z><w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+
+    <!--Port text boxes-->
+    <GUITexture Name = "PortDescBox">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.27</x><y>0.82</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.0 </Scale>
+      <Layer> 1.5 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z><w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+
+    <!--Full capacity resources-->
+    <GUITexture Name = "PortFullCapacity1">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+          
+      <Position>
+        <x>0.57166666</x><y>0.57903703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.95 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 0 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "PortFullCapacity2">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+          
+      <Position>
+        <x>0.57166666</x><y>0.57703703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.95 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 0 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "PortFullCapacity3">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+          
+      <Position>
+        <x>0.57166666</x><y>0.57703703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.95 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 0 </Active><!--Boolean-->
+    </GUITexture>
+
+    <!--Fixed ship repairs-->
+    <GUITexture Name = "PortRepaired">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+          
+      <Position>
+        <x>0.57166666</x><y>0.57703703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.95 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 0 </Active><!--Boolean-->
+    </GUITexture>
+
+    <!--Out of stock upgrades-->
+    <GUITexture Name = "PortOutOfStock1">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+          
+      <Position>
+        <x>0.59866666</x><y>0.58703703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.95 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 0 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "PortOutOfStock2">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+          
+      <Position>
+        <x>0.59866666</x><y>0.57703703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.95 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 0 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "PortOutOfStock3">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+          
+      <Position>
+        <x>0.59866666</x><y>0.57703703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.95 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+      </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 0 </Active><!--Boolean-->
+    </GUITexture>
+    
+  </GUITexture>
+
+
+  <GUIText Count = "46">
+    
+    <!--Port name 1-->
+    <GUIText Name = "PortName">
+      <Text></Text>
+      <Font>Piratekeg</Font>
+      <Position> <x>0.4989583</x><y>0.128148148</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.2 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+
+
+    <!--Shared pages text 14-->
+    <GUIText Name = "PageTitle">
+      <Text></Text>
+      <Font>Forte</Font>
+      <Position> <x>0.74</x><y>0.16</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.8 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0.56</x><y>0</y><z>0.25</z> <w>1</w> </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "GoldNum">
+      <Text>0</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.270833</x><y>0.388888888</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "FoodNum">
+      <Text>0</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.141666</x><y>0.629629629</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "RumNum">
+      <Text>0</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.27604166</x><y>0.629629629</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "CrewNum">
+      <Text>0</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.4083333</x><y>0.629629629</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "PageNum">
+      <Text>PageNum</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.76302083</x><y>0.05555555</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 2 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "PageIncText">
+      <Text>prev:                          next:</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.66</x><y>0.00555554</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "PageIncInput">
+      <Text>Q                                E</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.67</x><y>0.0355554</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "ExitChoice">
+      <Text>Exit</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.56646666</x><y>0.90385185</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.5 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "TotalPrice">
+      <Text>TotalPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.61446666</x><y>0.85985185</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.8 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0.56</x><y>0</y><z>0.25</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "ItemDesc1">
+      <Text>ItemDesc1</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.091666</x><y>0.70085185</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.3 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>1</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "ItemDesc2">
+      <Text>ItemDesc2</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.091666</x><y>0.75085185</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.3 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>1</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "ItemDesc3">
+      <Text>ItemDesc3</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.091666</x><y>0.80085185</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.3 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>1</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "ItemDesc4">
+      <Text>ItemDesc4</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.091666</x><y>0.85085185</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.3 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>1</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "ItemDesc5">
+      <Text>ItemDesc5</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.091666</x><y>0.90085185</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.3 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>1</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    
+    
+    <!--Page1 text: money 17-->
+    <GUIText Name = "Page1Columns">
+      <Text>Rsc.       #       Cost       Dsc%       Dsc$</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.55</x><y>0.188148148</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.2 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    
+    <GUIText Name = "FoodCount">
+      <Text>FoodCount</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.62546666</x><y>0.272407407</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>1</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "RumCount">
+      <Text>RumCount</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.62546666</x><y>0.4437037037</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>1</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "CrewCount">
+      <Text>CrewCount</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.62546666</x><y>0.60296296296</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>1</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "RepairCount">
+      <Text>N/A</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.62546666</x><y>0.761296296296</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    
+    <GUIText Name = "FoodPrice">
+      <Text>FoodPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.69146666</x><y>0.272407407</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "RumPrice">
+      <Text>RumPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.69146666</x><y>0.4437037037</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "CrewPrice">
+      <Text>CrewPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.69146666</x><y>0.60296296296</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "RepairPrice">
+      <Text>RepairPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.69146666</x><y>0.761296296296</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    
+    <GUIText Name = "FoodDiscount">
+      <Text>FoodDiscount</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.79146666</x><y>0.272407407</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "RumDiscount">
+      <Text>RumDiscount</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.79146666</x><y>0.4437037037</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "CrewDiscount">
+      <Text>CrewDiscount</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.79146666</x><y>0.60296296296</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "RepairDiscount">
+      <Text>RepairDiscount</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.79146666</x><y>0.761296296296</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    
+    <GUIText Name = "FoodDiscPrice">
+      <Text>FoodDiscPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.88146666</x><y>0.272407407</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "RumDiscPrice">
+      <Text>RumDiscPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.88146666</x><y>0.4437037037</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "CrewDiscPrice">
+      <Text>CrewDiscPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.88146666</x><y>0.60296296296</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "RepairDiscPrice">
+      <Text>RepairDiscPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.88146666</x><y>0.761296296296</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    
+    
+    <!--Page2 text: money 13-->
+    <GUIText Name = "Page2Columns">
+      <Text>Upg.      Lv.      Cost       Dsc%       Dsc$</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.55</x><y>0.188148148</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.2 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    
+    <GUIText Name = "WeaponLevel">
+      <Text>WeaponLevel</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.62546666</x><y>0.272407407</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>1</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "SailLevel">
+      <Text>SailLevel</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.62546666</x><y>0.4437037037</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>1</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "HullLevel">
+      <Text>HullLevel</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.62546666</x><y>0.60296296296</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>1</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    
+    <GUIText Name = "WeaponPrice">
+      <Text>WeaponPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.69146666</x><y>0.272407407</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "SailPrice">
+      <Text>SailPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.69146666</x><y>0.4437037037</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "HullPrice">
+      <Text>HullPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.69146666</x><y>0.60296296296</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    
+    <GUIText Name = "WeaponDiscount">
+      <Text>WeaponDiscount</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.79146666</x><y>0.272407407</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "SailDiscount">
+      <Text>SailDiscount</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.79146666</x><y>0.4437037037</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "HullDiscount">
+      <Text>HullDiscount</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.79146666</x><y>0.60296296296</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    
+    <GUIText Name = "WeaponDiscPrice">
+      <Text>WeaponDiscPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.88146666</x><y>0.272407407</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "SailDiscPrice">
+      <Text>SailDiscPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.88146666</x><y>0.4437037037</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "HullDiscPrice">
+      <Text>HullDiscPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.88146666</x><y>0.60296296296</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    
+    
+    <!--Page3 text: money 6-->
+    <GUIText Name = "FlamethrowerPrice">
+      <Text>FlamethrowerPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.55625</x><y>0.2324074074</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "BarrelsPrice">
+      <Text>BarrelsPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.55625</x><y>0.4037037</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "GreekshotPrice">
+      <Text>GreekshotPrice</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.55625</x><y>0.56296296</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>1</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "FlamethrowerDiscount">
+      <Text>FlamethrowerDiscount</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.55625</x><y>0.2787037037</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "BarrelsDiscount">
+      <Text>BarrelsDiscount</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.55625</x><y>0.45</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    <GUIText Name = "GreekshotDiscount">
+      <Text>GreekshotDiscount</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.55625</x><y>0.609259259</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>1</z> <w>1</w> </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    
+    
+    <!--Page4 text: money 1-->
+    <GUIText Name = "Fleet">
+      <Text>Fleet</Text>
+      <Font>Forte</Font>
+      <Position> <x>0.55625</x><y>0.2324074</y> </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color> <x>0</x><y>0</y><z>0</z> <w>1</w> </Color>
+      <Center> 1 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+    
+    
+  </GUIText>
+  
+  
+  <GUISlider Count = "0">
+    </GUISlider>
+    
+</GUIConfiguration>

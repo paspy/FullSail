@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity3D Type="5">
+  <Renderinfo>Port</Renderinfo>
+  <name></name>
+  
+  <PortInfo>
+    <pages></pages>  <!--# of pages unlocked in port menu-->
+    <Upgrades>
+      <W></W>  <!--# of upgrades available for weapons-->
+      <S></S>  <!--# of upgrades available for sails-->
+      <H></H>  <!--# of upgrades available for hull-->
+    </Upgrades>
+  </PortInfo>
+  
+</Entity3D>

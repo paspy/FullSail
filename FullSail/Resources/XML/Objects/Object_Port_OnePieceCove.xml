@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity3D Type="5">
+  <Renderinfo>Port</Renderinfo>
+  
+  <name>One Piece Cove</name>
+  
+  <PortInfo>
+    <pages>2</pages>  <!--# of pages unlocked in port menu-->
+    <Upgrades>
+      <W>5</W>  <!--# of upgrades available for weapons-->
+      <S>5</S>  <!--# of upgrades available for sails-->
+      <H>5</H>  <!--# of upgrades available for hull-->
+    </Upgrades>
+  </PortInfo>
+  
+</Entity3D>

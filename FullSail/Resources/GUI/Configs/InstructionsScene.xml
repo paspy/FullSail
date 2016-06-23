@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUIConfiguration>
+
+    <GUITexture Count = "7">
+    
+        <GUITexture Name = "Instruction_bg">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 0 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 1 </Active><!--Boolean-->
+        </GUITexture>
+      
+        <GUITexture Name = "Instruction_layer_intro">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "Instruction_layer_commands">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "Instruction_layer_battles">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "Instruction_layer_enemies">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "Instruction_layer_resources">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "Instruction_layer_back">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+    </GUITexture>
+
+    <GUIText Count = "0">
+    </GUIText>
+
+    <GUISlider Count = "0">
+    </GUISlider>
+
+</GUIConfiguration>

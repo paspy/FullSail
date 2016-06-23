@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUIConfiguration>
+
+    <GUITexture Count = "10">
+    
+        <GUITexture Name = "WinLose_bg">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.5</x><y>0.5</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 0 </Layer>
+            <Color>
+                <x>0.0</x><y>0.0</y><z>0.0</z> <w>0.0</w>
+            </Color>
+            <Center> 1 </Center><!--Boolean-->
+            <Active> 1 </Active><!--Boolean-->
+        </GUITexture>
+      
+        <GUITexture Name = "WinLose_defeat">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.5</x><y>0.5</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 2.0 </Scale>
+            <Layer> 2 </Layer>
+            <Color>
+                <x>0.0</x><y>0.0</y><z>0.0</z> <w>0.0</w>
+            </Color>
+            <Center> 1 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "WinLose_victory">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.5</x><y>0.5</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 2.0 </Scale>
+            <Layer> 2 </Layer>
+            <Color>
+                <x>0.0</x><y>0.0</y><z>0.0</z> <w>0.0</w>
+            </Color>
+            <Center> 1 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "WinLose_options">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "WinLose_options_continue">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 2 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "WinLose_options_save">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 2 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "WinLose_statLayout">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>0.0</x><y>0.0</y><z>0.0</z> <w>0.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "WinLose_score">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+      <GUITexture Name = "WinLose_skullHead">
+            <Static Count = "1">
+              <Original>
+                <x>0.4973958333333333</x><y>0.3935185185185185</y>
+              </Original>
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.4973958333333333</x><y>0.3935185185185185</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 2.0 </Scale>
+            <Layer> 2 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 1 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+
+      <GUITexture Name = "WinLose_skullSword">
+            <Static Count = "1">
+              <EdgePos>
+                <x>0.2880208333333333</x><y>0.2981481481481481</y>
+              </EdgePos>
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.5</x><y>0.5416666666666667</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 2.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 1 </Center><!--Boolean-->
+            <Active> 0 </Active><!--Boolean-->
+        </GUITexture>
+      
+    </GUITexture>
+
+    <GUIText Count = "17">
+      
+      <GUIText Name = "FinalScore">
+          <Text></Text>
+          <Font>Oldengl_120</Font>
+          <Position> <x>0.4895</x> <y>0.6805555555555556</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 3 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "RegularShotCount">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.4244791666666667</x> <y>0.3240740740740741</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "ChainShotCount">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.4244791666666667</x> <y>0.375</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "FoodShipCount">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.7552083333333333</x> <y>0.3240740740740741</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "GoldShipCount">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.7552083333333333</x> <y>0.375</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "MilitaryShipCount">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.7552083333333333</x> <y>0.4259259259259259</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "CrateCollectCount">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.4244791666666667</x> <y>0.5694444444444444</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "GoldCollectCount">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.4244791666666667</x> <y>0.6157407407407407</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "FoodCollectCount">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.4244791666666667</x> <y>0.662037037037037</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "RumCollectCount">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.4244791666666667</x> <y>0.712962962962963</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "BodyCollectCount">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.4244791666666667</x> <y>0.7638888888888889</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "DistanceCount">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.7473958333333333</x> <y>0.5694444444444444</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "CannonBallCount">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.7473958333333333</x> <y>0.6157407407407407</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "BoardingCount">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.7473958333333333</x> <y>0.662037037037037</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "CurrCannonLv">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.5755208333333333</x> <y>0.75</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "CurrSailLv">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.6796875</x> <y>0.75</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+      <GUIText Name = "CurrHullLv">
+          <Text></Text>
+          <Font>Forte</Font>
+          <Position> <x>0.7838541666666667</x> <y>0.75</y> </Position>
+          <Rotation> 0 </Rotation>
+          <Scale> 1.0 </Scale>
+          <Layer> 2 </Layer>
+          <Color>
+              <x>0.0196078431372549</x><y>0.007843137254902</y><z>0.0</z> <w>1.0</w>
+          </Color>
+          <Center> 1 </Center>
+          <Active> 0 </Active>
+       </GUIText>
+      
+    </GUIText>
+
+
+    <GUISlider Count = "0">
+    </GUISlider>
+
+</GUIConfiguration>

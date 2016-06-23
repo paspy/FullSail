@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUIConfiguration>
+
+    <GUITexture Count = "11">
+    
+        <GUITexture Name = "Option_bg">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0</x><y>0.0</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 0 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center>
+            <Active> 1 </Active>
+        </GUITexture>
+        
+        <GUITexture Name = "Option_music_selected">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.2114583333333333</x><y>0.2481481481481481</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center>
+            <Active> 0 </Active>
+        </GUITexture>
+        
+        <GUITexture Name = "Option_resolution_selected">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.5567708333333333</x><y>0.2712962962962963</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center>
+            <Active> 0 </Active>
+        </GUITexture>
+        
+        <GUITexture Name = "Option_sfx_selected">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.0859375</x><y>0.4231481481481481</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center>
+            <Active> 0 </Active>
+        </GUITexture>
+        
+        <GUITexture Name = "Option_gamma_selected">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.4151041666666667</x><y>0.4555555555555556</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center>
+            <Active> 0 </Active>
+        </GUITexture>
+        
+        <GUITexture Name = "Option_inputdevice_selected">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.2135416666666667</x><y>0.6425925925925926</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center>
+            <Active> 0 </Active>
+        </GUITexture>
+        
+        <GUITexture Name = "Option_apply_selected">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.2489583333333333</x><y>0.8592592592592593</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center>
+            <Active> 0 </Active>
+        </GUITexture>
+        
+        <GUITexture Name = "Option_back_selected">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.4260416666666667</x><y>0.8592592592592593</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center>
+            <Active> 0 </Active>
+        </GUITexture>
+        
+        <GUITexture Name = "Option_default_selected">
+            <Static Count = "0">
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.6151041666666667</x><y>0.8592592592592593</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 1 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center>
+            <Active> 0 </Active>
+        </GUITexture>
+      
+      <GUITexture Name = "Option_keyboard_hovered">
+            <Static Count = "5">
+              <Music> <x>0.234375</x><y>0.3148148148148148</y> </Music>
+              <Res> <x>0.5833333333333333</x><y>0.3333333333333333</y> </Res>
+              <SFX> <x>0.109375</x><y>0.4888888888888889</y> </SFX>
+              <Gamma> <x>0.4375</x><y>0.5185185185185185</y> </Gamma>
+              <Input> <x>0.2369791666666667</x><y>0.7083333333333333</y> </Input>
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.6151041666666667</x><y>0.8592592592592593</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 3 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center>
+            <Active> 0 </Active>
+        </GUITexture>
+      
+      <GUITexture Name = "Option_xbox_hovered">
+            <Static Count = "5">
+              <Music> <x>0.234375</x><y>0.3148148148148148</y> </Music>
+              <Res> <x>0.5833333333333333</x><y>0.3333333333333333</y> </Res>
+              <SFX> <x>0.109375</x><y>0.4888888888888889</y> </SFX>
+              <Gamma> <x>0.4375</x><y>0.5185185185185185</y> </Gamma>
+              <Input> <x>0.2369791666666667</x><y>0.7083333333333333</y> </Input>
+            </Static>
+            <Dynamic Count = "0">
+            </Dynamic>
+            <Position>
+                <x>0.6151041666666667</x><y>0.8592592592592593</y>
+            </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.0 </Scale>
+            <Layer> 3 </Layer>
+            <Color>
+                <x>1.0</x><y>1.0</y><z>1.0</z> <w>1.0</w>
+            </Color>
+            <Center> 0 </Center>
+            <Active> 0 </Active>
+        </GUITexture>
+
+    </GUITexture>
+
+    <GUIText Count = "5">
+    
+        <GUIText Name = "MusicText">
+            <Text></Text>
+            <Font>Forte</Font>
+            <Position> <x>0.3359375</x> <y>0.35</y> </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.5 </Scale>
+            <Layer> 2 </Layer>
+            <Color>
+                <x>0.1412</x><y>0.2392</y><z>0.3098</z> <w>1.0</w>
+            </Color>
+            <Center> 1 </Center>
+            <Active> 1 </Active>
+        </GUIText>
+    
+    <GUIText Name = "ResolutionText">
+            <Text></Text>
+            <Font>Forte</Font>
+            <Position> <x>0.6822916666666667</x> <y>0.3703703703703704</y> </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.5 </Scale>
+            <Layer> 2 </Layer>
+            <Color>
+                <x>0.1412</x><y>0.2392</y><z>0.3098</z> <w>1.0</w>
+            </Color>
+            <Center> 1 </Center>
+            <Active> 1 </Active>
+        </GUIText>
+    
+    <GUIText Name = "SFXText">
+            <Text></Text>
+            <Font>Forte</Font>
+            <Position> <x>0.2036458333333333</x> <y>0.5287037037037037</y> </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.5 </Scale>
+            <Layer> 2 </Layer>
+            <Color>
+                <x>0.1412</x><y>0.2392</y><z>0.3098</z> <w>1.0</w>
+            </Color>
+            <Center> 1 </Center>
+            <Active> 1 </Active>
+        </GUIText>
+    
+    <GUIText Name = "GammaText">
+            <Text></Text>
+            <Font>Forte</Font>
+            <Position> <x>0.5432291666666667</x> <y>0.5564814814814815</y> </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.5 </Scale>
+            <Layer> 2 </Layer>
+            <Color>
+                <x>0.1412</x><y>0.2392</y><z>0.3098</z> <w>1.0</w>
+            </Color>
+            <Center> 1 </Center>
+            <Active> 1 </Active>
+        </GUIText>
+        
+    <GUIText Name = "InputDeviceText">
+            <Text></Text>
+            <Font>Forte</Font>
+            <Position> <x>0.3401041666666667</x> <y>0.7425925925925926</y> </Position>
+            <Rotation> 0 </Rotation>
+            <Scale> 1.5 </Scale>
+            <Layer> 2 </Layer>
+            <Color>
+                <x>0.1412</x><y>0.2392</y><z>0.3098</z> <w>1.0</w>
+            </Color>
+            <Center> 1 </Center>
+            <Active> 1 </Active>
+        </GUIText>
+    </GUIText>
+    
+    <GUISlider Count = "0">
+    </GUISlider>
+
+</GUIConfiguration>

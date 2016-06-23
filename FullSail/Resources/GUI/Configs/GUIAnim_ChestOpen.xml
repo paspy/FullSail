@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUIAnimation>
+
+	<Position>
+		<x>0.5</x>
+		<y>0.5</y>
+	</Position>
+
+	<!--Boolean-->
+	<Looping> 0 </Looping>
+
+	<GUIFrames Count = "3">
+
+		<GUIFrame Name = "anim_chest_open_1">
+			<Duration> 0.2 </Duration>
+		</GUIFrame>
+
+		<GUIFrame Name = "anim_chest_open_2">
+			<Duration> 0.2 </Duration>
+		</GUIFrame>
+
+		<GUIFrame Name = "anim_chest_open_3">
+			<Duration> 0.5 </Duration>
+		</GUIFrame>
+
+	</GUIFrames>
+
+</GUIAnimation>

@@ -1,0 +1,864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Configs">
+      <UniqueIdentifier>{88b6f593-7d67-4482-b4af-593dde56b6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{601e0e36-5890-48da-9a5b-888cc126be4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Main Menu">
+      <UniqueIdentifier>{b336994a-8d22-478c-b9bf-16c00cd818cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Gameplay">
+      <UniqueIdentifier>{fccc1420-50e6-45b4-ad8b-f02e1a45da2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Pause Menu">
+      <UniqueIdentifier>{a3bdfc32-afc9-4236-92c1-5321f51e62ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Port Menu">
+      <UniqueIdentifier>{f28148ed-e060-4728-9157-172cec9d13dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Win/Lose">
+      <UniqueIdentifier>{dfe26ae0-4d57-4c77-88dd-e682763fb462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Intro Scene">
+      <UniqueIdentifier>{d069c1cb-117b-469c-b48a-e0245770e905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\GUIAnime">
+      <UniqueIdentifier>{723c1908-c5a0-4e87-b4c5-8ab5512a3e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Gameplay\spyglass">
+      <UniqueIdentifier>{a715dfca-f84a-4c5f-afcf-aa112fcdac84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Gameplay\minimap">
+      <UniqueIdentifier>{48024f73-5cc9-4856-9b6c-93fb5c35aab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Gameplay\3D HUD">
+      <UniqueIdentifier>{dd44cbed-56bb-4e63-a232-4281703466f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Gameplay\2D HUD">
+      <UniqueIdentifier>{63e3c9b8-33a7-4006-82df-d376c1b26212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Gameplay\2D HUD\resource images">
+      <UniqueIdentifier>{615ba812-6556-4a63-8ed0-c20252a0404b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Gameplay\2D HUD\ammo images">
+      <UniqueIdentifier>{02582d68-5050-46c2-bb3f-4c6c3ceeb9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Credits">
+      <UniqueIdentifier>{493f9e7d-f79e-4212-9fb5-63274618919a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Option Menu">
+      <UniqueIdentifier>{1f32a669-0ebc-42e0-9997-f2c561de8095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Insturctions">
+      <UniqueIdentifier>{d0d40925-9bef-406b-a6a0-317854ee4b6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="GUI\HUD_LayoutTips_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortButtonXbox_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortButtonKeyboard_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\BoardButtonKeyboard_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\BoardButtonKeyboard_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\BoardButtonXbox_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\BoardButtonXbox_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Cannons_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Cannons_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_LayoutTips_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortButtonKeyboard_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortButtonXbox_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Sails_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Sails_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Ship_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Ship_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\WantedPoster_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\WantedPoster_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\SailsSpeedBack_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\SailsSpeedFront_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\DiscountIcon_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\DiscountIcon_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Port_KeyboardInput_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Port_KeyboardInput_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortMenu_newbg_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortMenu_newbg_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortMenu_Reticle_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortMenu_Reticle_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortPricesResources_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortPricesResources_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortPricesUpgrades_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortPricesUpgrades_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortResources_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortResources_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\xbox_lb_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\xbox_lb_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\xbox_rb_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\xbox_rb_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\SailsSpeedBack_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\SailsSpeedFront_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\anim_chest_open_1_1280x720.png">
+      <Filter>GUI\GUIAnime</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\anim_chest_open_1_1920x1080.png">
+      <Filter>GUI\GUIAnime</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\anim_chest_open_2_1280x720.png">
+      <Filter>GUI\GUIAnime</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\anim_chest_open_2_1920x1080.png">
+      <Filter>GUI\GUIAnime</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\anim_chest_open_3_1280x720.png">
+      <Filter>GUI\GUIAnime</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\anim_chest_open_3_1920x1080.png">
+      <Filter>GUI\GUIAnime</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Cannons_1920x1080.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Crew_1920x1080.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Sails_1920x1080.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortDescBox_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortDescBox_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_1280x720.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_1920x1080.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MinimapBoss_1280x720.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MinimapBoss_1920x1080.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MinimapShip_1280x720.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MinimapShip_1920x1080.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="3DHUD\3DHUD_FoodIcon_1280x720.png">
+      <Filter>GUI\Gameplay\3D HUD</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="3DHUD\3DHUD_FoodIcon_1920x1080.png">
+      <Filter>GUI\Gameplay\3D HUD</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="3DHUD\3DHUD_GoldBagIcon_1280x720.png">
+      <Filter>GUI\Gameplay\3D HUD</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="3DHUD\3DHUD_GoldBagIcon_1920x1080.png">
+      <Filter>GUI\Gameplay\3D HUD</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="3DHUD\3DHUD_RumIcon_1280x720.png">
+      <Filter>GUI\Gameplay\3D HUD</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="3DHUD\3DHUD_RumIcon_1920x1080.png">
+      <Filter>GUI\Gameplay\3D HUD</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_CrewIcon_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_CrewIcon_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_FoodDec_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_FoodDec_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_FoodIcon_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_FoodIcon_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_GoldIcon_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_GoldIcon_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_RumDec_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_RumDec_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_RumIcon_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_RumIcon_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\LowFoodIcon_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\LowFoodIcon_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\LowRumIcon_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\LowRumIcon_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\AmmoTypeSelector_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\AmmoTypeSelector_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\FireSkillIcon-1_keyboard_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\FireSkillIcon-1_keyboard_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\FireSkillIcon-1_xbox_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\FireSkillIcon-1_xbox_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\FireSkillIcon-2_keyboard_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\FireSkillIcon-2_keyboard_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\FireSkillIcon-2_xbox_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\FireSkillIcon-2_xbox_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\FireSkillIcon-3_keyboard_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\FireSkillIcon-3_keyboard_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\FireSkillIcon-3_xbox_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\FireSkillIcon-3_xbox_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Grapeshot_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Grapeshot_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Cannonball_keyboard_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Cannonball_keyboard_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Cannonball_xbox_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Cannonball_xbox_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\ChainBall_keyboard_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\ChainBall_keyboard_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\ChainBall_xbox_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\ChainBall_xbox_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\ammo images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_RepuBar_back_universal_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_RepuBar_back_universal_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_RepuBar_front_universal_1280x720.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\HUD_RepuBar_front_universal_1920x1080.png">
+      <Filter>GUI\Gameplay\2D HUD\resource images</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Cannons_1280x720.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Crew_1280x720.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Fast_Sails_1280x720.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Fast_Sails_1920x1080.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Sails_1280x720.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Slow_Sails_1280x720.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Slow_Sails_1920x1080.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Strong_Cannons_1280x720.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Strong_Cannons_1920x1080.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Weak_Cannons_1280x720.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Player_Weak_Cannons_1920x1080.png">
+      <Filter>GUI\Gameplay\spyglass</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Spyglass_xbox_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Spyglass_keyboard_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortDarkBeard%27sEnclave_1280x720.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortDarkBeard%27sEnclave_1920x1080.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortDeadKrakenHarbor_1280x720.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortDeadKrakenHarbor_1920x1080.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Spyglass_keyboard_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Spyglass_xbox_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortIsleDeCervantes_1280x720.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortIsleDeCervantes_1920x1080.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortMonsoonRetreat_1280x720.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortMonsoonRetreat_1920x1080.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortOnePieceCove_1280x720.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortOnePieceCove_1920x1080.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortPortRoyalty_1280x720.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortPortRoyalty_1920x1080.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortSaltierSpitoon_1280x720.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortSaltierSpitoon_1920x1080.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortTortuga_1280x720.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MiniMap_PortTortuga_1920x1080.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortFullCapacity1_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortFullCapacity1_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortFullCapacity2_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortFullCapacity2_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortFullCapacity3_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortFullCapacity3_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortOutOfStock1_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortOutOfStock1_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortOutOfStock2_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortOutOfStock2_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortOutOfStock3_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortOutOfStock3_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortRepaired_1280x720.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortRepaired_1920x1080.png">
+      <Filter>GUI\Port Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Credits\Credit_bg_1280x720.png">
+      <Filter>GUI\Credits</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Credits\Credit_bg_1920x1080.png">
+      <Filter>GUI\Credits</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Credits\Credit_fg_1280x720.png">
+      <Filter>GUI\Credits</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Credits\Credit_fg_1920x1080.png">
+      <Filter>GUI\Credits</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_sfx_selected_1920x1080.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_apply_selected_1280x720.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_apply_selected_1920x1080.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_back_selected_1280x720.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_back_selected_1920x1080.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_bg_1280x720.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_bg_1920x1080.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_default_selected_1280x720.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_default_selected_1920x1080.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_gamma_selected_1280x720.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_gamma_selected_1920x1080.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_inputdevice_selected_1280x720.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_inputdevice_selected_1920x1080.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_music_selected_1280x720.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_music_selected_1920x1080.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_resolution_selected_1280x720.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_resolution_selected_1920x1080.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_sfx_selected_1280x720.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Cooldown-1_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Cooldown-1_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Cooldown-2_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Cooldown-2_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Cooldown-3_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\Cooldown-3_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Pause\Pause_bg_1280x720.png">
+      <Filter>GUI\Pause Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Pause\Pause_bg_1920x1080.png">
+      <Filter>GUI\Pause Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Pause\Pause_exit_1280x720.png">
+      <Filter>GUI\Pause Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Pause\Pause_exit_1920x1080.png">
+      <Filter>GUI\Pause Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Pause\Pause_option_1280x720.png">
+      <Filter>GUI\Pause Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Pause\Pause_option_1920x1080.png">
+      <Filter>GUI\Pause Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Pause\Pause_resume_1280x720.png">
+      <Filter>GUI\Pause Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Pause\Pause_resume_1920x1080.png">
+      <Filter>GUI\Pause Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MinimapCargo_1280x720.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MinimapCargo_1920x1080.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_keyboard_hovered_1280x720.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_keyboard_hovered_1920x1080.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_xbox_hovered_1280x720.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Options\Option_xbox_hovered_1920x1080.png">
+      <Filter>GUI\Option Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_bg_gamepad_1280x720.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_bg_gamepad_1920x1080.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_bg_keyboard_1280x720.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_bg_keyboard_1920x1080.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_cursor_credits_1280x720.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_cursor_credits_1920x1080.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_cursor_exit_1280x720.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_cursor_exit_1920x1080.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_cursor_howtoplay_1280x720.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_cursor_howtoplay_1920x1080.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_cursor_newgame_1280x720.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_cursor_newgame_1920x1080.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_cursor_option_1280x720.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="MainMenu\MainMenu_cursor_option_1920x1080.png">
+      <Filter>GUI\Main Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortPlate_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\PortPlate_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_bg_1280x720.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_bg_1920x1080.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_layer_back_1280x720.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_layer_back_1920x1080.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_layer_battles_1280x720.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_layer_battles_1920x1080.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_layer_commands_1280x720.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_layer_commands_1920x1080.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_layer_enemies_1280x720.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_layer_enemies_1920x1080.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_layer_intro_1280x720.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_layer_intro_1920x1080.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_layer_resources_1280x720.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Instructions\Instruction_layer_resources_1920x1080.png">
+      <Filter>GUI\Insturctions</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Pause\Pause_instruction_1920x1080.png">
+      <Filter>GUI\Pause Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Pause\Pause_instruction_1280x720.png">
+      <Filter>GUI\Pause Menu</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_bg_1280x720.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_bg_1920x1080.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_defeat_1280x720.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_defeat_1920x1080.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_options_1280x720.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_options_1920x1080.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_options_continue_1280x720.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_options_continue_1920x1080.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_options_save_1280x720.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_options_save_1920x1080.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_score_1280x720.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_score_1920x1080.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_skullHead_1280x720.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_skullHead_1920x1080.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_skullSword_1280x720.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_skullSword_1920x1080.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_statLayout_1280x720.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_statLayout_1920x1080.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_victory_1280x720.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="WinLose\WinLose_victory_1920x1080.png">
+      <Filter>GUI\Win/Lose</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\SailsSpeedDamage_1280x720.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\SailsSpeedDamage_1920x1080.png">
+      <Filter>GUI\Gameplay</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MinimapRecon_1280x720.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="GUI\MinimapRecon_1920x1080.png">
+      <Filter>GUI\Gameplay\minimap</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Intro\IntroLogos_studio_1280x720.png">
+      <Filter>GUI\Intro Scene</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Intro\IntroLogos_studio_1920x1080.png">
+      <Filter>GUI\Intro Scene</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Intro\IntroLogos_team_1280x720.png">
+      <Filter>GUI\Intro Scene</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Intro\IntroLogos_team_1920x1080.png">
+      <Filter>GUI\Intro Scene</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Intro\IntroLogos_GD_1280x720.png">
+      <Filter>GUI\Intro Scene</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Intro\IntroLogos_GD_1920x1080.png">
+      <Filter>GUI\Intro Scene</Filter>
+    </ImageContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\FullSail\Resources\GUI\Configs\MainMenuScene.xml">
+      <Filter>Configs</Filter>
+    </None>
+    <None Include="..\FullSail\Resources\GUI\Configs\InstructionsScene.xml">
+      <Filter>Configs</Filter>
+    </None>
+    <None Include="..\FullSail\Resources\GUI\Configs\GameplayScene.xml">
+      <Filter>Configs</Filter>
+    </None>
+    <None Include="..\FullSail\Resources\GUI\Configs\PauseScene.xml">
+      <Filter>Configs</Filter>
+    </None>
+    <None Include="..\FullSail\Resources\GUI\Configs\PortMenuScene.xml">
+      <Filter>Configs</Filter>
+    </None>
+    <None Include="..\FullSail\Resources\GUI\Configs\Template.xml">
+      <Filter>Configs</Filter>
+    </None>
+    <None Include="..\FullSail\Resources\GUI\Configs\WinLoseScene.xml">
+      <Filter>Configs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\FullSail\Resources\GUI\Configs\OptionScene.xml">
+      <Filter>Configs</Filter>
+    </Xml>
+    <Xml Include="..\FullSail\Resources\GUI\Configs\IntroScene.xml">
+      <Filter>Configs</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

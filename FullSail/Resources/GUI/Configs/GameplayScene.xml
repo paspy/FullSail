@@ -1,0 +1,1987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUIConfiguration>
+
+  <GUITexture Count = "52">
+
+    <!--Reputation section-->
+    <GUITexture Name = "HUD_LayoutTips">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0</x>
+        <y>0</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+
+    <!--Reputation section-->
+    <GUITexture Name = "WantedPoster">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.0390625</x>
+        <y>0.060185185</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0.7</x>
+        <y>0.7</y>
+        <z>0.7</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+
+    <!--Minimap section-->
+    <GUITexture Name = "MiniMap">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.84114583</x>
+        <y>0.04351851</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>0.6</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "MinimapShip">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "1">
+        <Initial>
+          <x>0.908854167</x>
+          <y>0.162037037</y>
+        </Initial>
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.908854167</x>
+        <y>0.162037037</y>
+      </Position>
+      <Rotation> 1.57 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0.5 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "MinimapBoss">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "1">
+        <Initial>
+          <x>0.908854167</x>
+          <y>0.162037037</y>
+        </Initial>
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.908854167</x>
+        <y>0.162037037</y>
+      </Position>
+      <Rotation> 1.57 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2.9 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "MinimapCargo">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "1">
+        <Initial>
+          <x>0.908854167</x>
+          <y>0.162037037</y>
+        </Initial>
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.908854167</x>
+        <y>0.162037037</y>
+      </Position>
+      <Rotation> 1.57 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2.8 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "MinimapRecon">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "1">
+        <Initial>
+          <x>0.908854167</x>
+          <y>0.162037037</y>
+        </Initial>
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.908854167</x>
+        <y>0.162037037</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 3.6 </Scale>
+      <Layer> 0.3 </Layer>
+      <Color>
+        <x>0.6</x>
+        <y>0</y>
+        <z>0</z>
+        <w>0.5</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+
+    <GUITexture Name = "MiniMap_PortDarkBeard'sEnclave">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.84114583</x><y>0.04351851</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0.6 </Layer>
+      <Color>
+        <x>1</x><y>1</y><z>1</z><w>0.6</w>
+      </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "MiniMap_PortDeadKrakenHarbor">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.84114583</x><y>0.04351851</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0.6 </Layer>
+      <Color>
+        <x>1</x><y>1</y><z>1</z><w>0.6</w>
+      </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "MiniMap_PortIsleDeCervantes">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.84114583</x><y>0.04351851</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0.6 </Layer>
+      <Color>
+        <x>1</x><y>1</y><z>1</z><w>0.6</w>
+      </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "MiniMap_PortMonsoonRetreat">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.84114583</x><y>0.04351851</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0.6 </Layer>
+      <Color>
+        <x>1</x><y>1</y><z>1</z><w>0.6</w>
+      </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "MiniMap_PortOnePieceCove">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.84114583</x><y>0.04351851</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0.6 </Layer>
+      <Color>
+        <x>1</x><y>1</y><z>1</z><w>0.6</w>
+      </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "MiniMap_PortPortRoyalty">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.84114583</x><y>0.04351851</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0.6 </Layer>
+      <Color>
+        <x>1</x><y>1</y><z>1</z><w>0.6</w>
+      </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "MiniMap_PortSaltierSpitoon">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.84114583</x><y>0.04351851</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0.6 </Layer>
+      <Color>
+        <x>1</x><y>1</y><z>1</z><w>0.6</w>
+      </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "MiniMap_PortTortuga">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.84114583</x><y>0.04351851</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0.6 </Layer>
+      <Color>
+        <x>1</x><y>1</y><z>1</z><w>0.6</w>
+      </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "PortPlate">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.90894583</x>
+        <y>0.29530000</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 1.9 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    
+    <!--Ship HP section-->
+    <GUITexture Name = "Ship">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.0390625</x>
+        <y>0.625</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0.5</x>
+        <y>0.5</y>
+        <z>0.5</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "Sails">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.0390625</x>
+        <y>0.625</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>0.5</x>
+        <y>0.5</y>
+        <z>0.5</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "Cannons">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.0390625</x>
+        <y>0.625</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>0.5</x>
+        <y>0.5</y>
+        <z>0.5</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+
+    <!--Cannon Icon section-->
+    <GUITexture Name = "FireSkillIcon-1_keyboard">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.061458333</x>
+        <y>0.578703703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "FireSkillIcon-1_xbox">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.061458333</x>
+        <y>0.578703703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "Cooldown-1">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.061458333</x>
+        <y>0.578703703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "FireSkillIcon-2_keyboard">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.0026041666</x>
+        <y>0.8009259259</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "FireSkillIcon-2_xbox">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.0026041666</x>
+        <y>0.8009259259</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "Cooldown-2">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.0026041666</x>
+        <y>0.8009259259</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "FireSkillIcon-3_keyboard">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.1197916666</x>
+        <y>0.8009259259</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "FireSkillIcon-3_xbox">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.1197916666</x>
+        <y>0.8009259259</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "Cooldown-3">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.1197916666</x>
+        <y>0.8009259259</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+
+    <!--Resources section-->
+    <GUITexture Name = "HUD_GoldIcon">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.2140625</x>
+        <y>0.004629629</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "HUD_FoodIcon">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.3734375</x>
+        <y>0.004629629</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "HUD_RumIcon">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.5328125</x>
+        <y>0.004629629</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "HUD_CrewIcon">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.6921875</x>
+        <y>0.004629629</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+
+    <!--Updating Resources section-->
+    <GUITexture Name = "HUD_FoodDec">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.5</x>
+        <y>0.5</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "HUD_RumDec">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.5</x>
+        <y>0.5</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "LowFoodIcon">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.46875</x>
+        <y>0.54629629</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.8 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "LowRumIcon">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.53125</x>
+        <y>0.54629629</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.8 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+
+    <!--Interaction buttons section-->
+    <GUITexture Name = "PortButtonKeyboard">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.515625</x>
+        <y>0.39814814</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.5 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "PortButtonXbox">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.515625</x>
+        <y>0.39814814</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.5 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "BoardButtonKeyboard">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.515625</x>
+        <y>0.39814814</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.5 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "BoardButtonXbox">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.515625</x>
+        <y>0.39814814</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.5 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+
+    <!--Resources section-->
+    <GUITexture Name = "Cannonball_keyboard">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.7942708333</x>
+        <y>0.8703703703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "Cannonball_xbox">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.7942708333</x>
+        <y>0.8703703703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "ChainBall_keyboard">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.859375</x>
+        <y>0.777777</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "ChainBall_xbox">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.859375</x>
+        <y>0.777777</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "Grapeshot">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.924479166</x>
+        <y>0.870370370</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "AmmoTypeSelector">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "1">
+        <Cannonball>
+          <x>0.7942708333</x>
+          <y>0.8703703703</y>
+        </Cannonball>
+      </Static>
+      <Dynamic Count = "2">
+        <Chainshot>
+          <x>0.065104166</x>
+          <y>-0.09259259259</y>
+        </Chainshot>
+        <Grapeshot>
+          <x>0.13020833333</x>
+          <y>0.0</y>
+        </Grapeshot>
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.7942708333</x>
+        <y>0.8703703703</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 3 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+
+    <!--3D HUD section-->
+    <GUITexture Name = "3DHUD_GoldBagIcon">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "1">
+        <Start>
+          <x>0.5</x>
+          <y>0.5</y>
+        </Start>
+      </Static>
+      <Dynamic Count = "1">
+        <IconPosition>
+          <x>-0.2859375</x>
+          <y>-0.495370371</y>
+        </IconPosition>
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.5</x>
+        <y>0.5</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "3DHUD_FoodIcon">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "1">
+        <Start>
+          <x>0.5</x>
+          <y>0.5</y>
+        </Start>
+      </Static>
+      <Dynamic Count = "1">
+        <IconPosition>
+          <x>-0.1265625</x>
+          <y>-0.495370371</y>
+        </IconPosition>
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.5</x>
+        <y>0.5</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "3DHUD_RumIcon">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "1">
+        <Start>
+          <x>0.5</x>
+          <y>0.5</y>
+        </Start>
+      </Static>
+      <Dynamic Count = "1">
+        <IconPosition>
+          <x>0.0328125</x>
+          <y>-0.495370371</y>
+        </IconPosition>
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.5</x>
+        <y>0.5</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 2 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+
+    <!--Spyglass section-->
+    <GUITexture Name = "Spyglass_xbox">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.88541666</x>
+        <y>0.32407407</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "Spyglass_keyboard">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.88541666</x>
+        <y>0.32407407</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+    <GUITexture Name = "SailsSpeedDamage">
+      <!--This section is for record some static and offset(dynamic) postion values-->
+      <Static Count = "0">
+      </Static>
+      <Dynamic Count = "0">
+      </Dynamic>
+      <!--In case need to update the position by time-->
+
+      <Position>
+        <x>0.5</x>
+        <y>0.9</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUITexture>
+
+  </GUITexture>
+
+  <GUIText Count = "24">
+
+    <!--Turtorial section-->
+    <GUIText Name = "FinalTurtorialMessage">
+      <Text>Now go out and become the most famous pirate in history!</Text>
+      <Font>Piratekeg</Font>
+      <Position>
+        <x>0.5</x>
+        <y>0.2</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "CrateMessage">
+      <Text>Pick up the crates</Text>
+      <Font>Piratekeg</Font>
+      <Position>
+        <x>0.5</x>
+        <y>0.2</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "FirstShipFirstMessage">
+      <Text></Text>
+      <Font>Piratekeg</Font>
+      <Position>
+        <x>0.5</x>
+        <y>0.2</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "FirstShipSecondMessage">
+      <Text></Text>
+      <Font>Piratekeg</Font>
+      <Position>
+        <x>0.5</x>
+        <y>0.2</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "SecondShipFirstMessage">
+      <Text></Text>
+      <Font>Piratekeg</Font>
+      <Position>
+        <x>0.5</x>
+        <y>0.2</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "SecondShipSecondMessage">
+      <Text></Text>
+      <Font>Piratekeg</Font>
+      <Position>
+        <x>0.5</x>
+        <y>0.2</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+    
+    <!--Reputation section-->
+    <GUIText Name = "ReputationTitle">
+      <Text>Nobody</Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.075520833</x>
+        <y>0.023148148</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "ReputationBounty">
+      <Text>$0</Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.058333333</x>
+        <y>0.259259259</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.5 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>0.8</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUIText>
+    
+    <!--Speed section-->
+    <GUIText Name = "SpeedIconText">
+      <Text>Knots</Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.5</x>
+        <y>0.962962962962</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>0</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUIText>
+
+    <!--Resources section-->
+    <GUIText Name = "GoldStatus">
+      <Text></Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.2546875</x>
+        <y>0.1759259259</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "FoodStatus">
+      <Text></Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.4145833333</x>
+        <y>0.1759259259</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "RumStatus">
+      <Text></Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.5744791666</x>
+        <y>0.1759259259</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "CrewStatus">
+      <Text></Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.7333333333</x>
+        <y>0.1759259259</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 1 </Layer>
+      <Color>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+    </GUIText>
+
+    <!--Resources Update section-->
+    <GUIText Name = "RumDec">
+      <Text></Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.5</x>
+        <y>0.5</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "FoodDec">
+      <Text></Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.5</x>
+        <y>0.5</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>1</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+
+    <!--Out of Bounds section-->
+    <GUIText Name = "Warning">
+      <Text>Sea monsters are coming after you!</Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.4921875</x>
+        <y>0.32407407</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 2 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0.54</x>
+        <y>0.02</y>
+        <z>0.02</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+
+
+    <!--Cargo spawn text-->
+    <GUIText Name = "Cargo">
+      <Text></Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.4921875</x>
+        <y>0.6</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 2 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0.54</x>
+        <y>0.54</y>
+        <z>0.02</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+
+    <!--Recon spawn text-->
+    <GUIText Name = "ReconText1">
+      <Text>Reports of recon ships in the world Cap'n!</Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.4921875</x>
+        <y>0.23</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.4 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0.54</x>
+        <y>0.02</y>
+        <z>0.02</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "ReconText2">
+      <Text>(Check that thar minimap Cap'n!)</Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.4921875</x>
+        <y>0.28</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.2 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+
+    <!--Boss spawn text-->
+    <GUIText Name = "Boss">
+      <Text>Big bad guy is coming!</Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.4921875</x>
+        <y>0.32407407</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 2 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0.54</x>
+        <y>0.02</y>
+        <z>0.02</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "Boss2">
+      <Text>(Check that thar minimap Cap'n!)</Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.4921875</x>
+        <y>0.38407407</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.2 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "Boss3">
+      <Text>Big bad guy is hunting for us Cap'n!</Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.4921875</x>
+        <y>0.32407407</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 2 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0.54</x>
+        <y>0.02</y>
+        <z>0.02</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+    <GUIText Name = "Boss4">
+      <Text>(Boss ship headin' [x] Cap'n!)</Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.4921875</x>
+        <y>0.38407407</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1.2 </Scale>
+      <Layer> 0 </Layer>
+      <Color>
+        <x>0.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+        <w>1</w>
+      </Color>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 0 </Active>
+      <!--Boolean-->
+    </GUIText>
+
+    <!--Port sale time-->
+    <GUIText Name = "PortSaleTime">
+      <Text></Text>
+      <Font>Forte</Font>
+      <Position>
+        <x>0.834</x>
+        <y>0.28</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 0.6 </Scale>
+      <Layer> 2 </Layer>
+      <Color>
+        <x>1</x>
+        <y>0</y>
+        <z>0</z>
+        <w>1</w>
+      </Color>
+      <Center> 0 </Center><!--Boolean-->
+      <Active> 1 </Active><!--Boolean-->
+    </GUIText>
+
+  </GUIText>
+
+  <GUISlider Count = "2">
+
+    <!--Reputation section-->
+    <GUISlider Name = "Reputation">
+      <FrontTexture>HUD_RepuBar_front_universal</FrontTexture>
+      <BackTexture>HUD_RepuBar_back_universal</BackTexture>
+      <InitValue> 0.1 </InitValue>
+      <!-- From 0.0 to 1.0 -->
+      <Position>
+        <x>0.0130208333333</x>
+        <y>0.0370370370370</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <FrontColor>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </FrontColor>
+      <BackColor>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>1</w>
+      </BackColor>
+      <Center> 0 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+      <Vertical> 0 </Vertical>
+      <!--Boolean-->
+      <Animated> 0 </Animated>
+      <!--Boolean Place holder-->
+    </GUISlider>
+
+    <GUISlider Name = "SailSpeed">
+      <FrontTexture>SailsSpeedBack</FrontTexture>
+      <BackTexture>SailsSpeedFront</BackTexture>
+      <InitValue> 0.1 </InitValue>
+      <!-- From 0.0 to 1.0 -->
+      <Position>
+        <x>0.5</x>
+        <y>0.9</y>
+      </Position>
+      <Rotation> 0 </Rotation>
+      <Scale> 1 </Scale>
+      <Layer> 0 </Layer>
+      <FrontColor>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>0</w>
+      </FrontColor>
+      <BackColor>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+        <w>0</w>
+      </BackColor>
+      <Center> 1 </Center>
+      <!--Boolean-->
+      <Active> 1 </Active>
+      <!--Boolean-->
+      <Vertical> 0 </Vertical>
+      <!--Boolean-->
+      <Animated> 0 </Animated>
+      <!--Boolean Place holder-->
+    </GUISlider>
+
+  </GUISlider>
+
+</GUIConfiguration>

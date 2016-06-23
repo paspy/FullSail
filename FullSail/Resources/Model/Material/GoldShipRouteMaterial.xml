@@ -1,0 +1,14 @@
+<Material>
+    <GlobalAmbient x="0" y="0" z="0" w="0"/>
+    <AmbientColor x="1" y="1" z="1" w="1"/>
+    <EmissiveColor x="0" y="0" z="0" w="0"/>
+    <DiffuseColor x="1" y="1" z="1" w="1"/>
+    <SpecularColor x="0" y="0" z="0" w="0"/>
+    <Reflectance x="0" y="0" z="0" w="0"/>
+    <Opacity value="1"/>
+    <SpecularPower value="64"/>
+    <IndexOfRefraction value="0"/>
+    <BumpIntensity value="1"/>
+    <SpecularScale value="1"/>
+    <AlphaThreshold value="0.1"/>
+</Material>
